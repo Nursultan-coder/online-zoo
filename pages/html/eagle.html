@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../assets/icons/logo.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet"></link>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet"></link>
+  <link href="../css/zoos.css" rel="stylesheet"></link>
+  <title>Eagle</title>
+</head>
+<body>
+  <!--header-->
+  <div class="header-back">
+    <div class="header-wrapper">
+    <header class="header">
+      <div class="header__logo">
+        <a href="./index.html"><img class="side-bar__logo" src="../../assets/icons/logo.png" alt="logo"></a>
+      </div>
+      <div class="header__burger">
+        <input id="burger" type="checkbox">
+        <label class="header__burger_label" for="burger">
+         <span></span>
+       </label>
+         <nav class="header__burger_nav">
+          <ul class="header__burger_list">
+            <li class="header__burger_item" id="about"><a class="header__link" href="./index.html">About</a></li>
+            <li class="header__burger_item"><a class="header__burger_link" href="./map.html">Map</a></li>
+            <li class="header__burger_item" id ="translation"><a class="header__burger_link" href="#">Zoos</a></li>
+            <li class="header__burger_item"><a class="header__burger_link" href="./404.html">Contact us</a></li>
+            <li class="header__burger_item"><a class="header__burger_link" href="https://www.figma.com/file/74wXlorl9mZQP0uhqDg83j/Online-Zoo">Design</a></li>
+          </ul>
+        </nav>
+        </div>
+      <h1 class="hidden depth">Online Zoo</h1>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item" id="about"><a class="header__link" href="./index.html">About</a></li>
+          <li class="header__item"><a class="header__link" href="map.html">Map</a></li>
+          <li class="header__item" id="translations"><a class="header__link" href="#">Zoos</a></li>
+          <li class="header__item"><a class="header__link" href="./404.html">Contact us</a></li>
+          <li class="header__item"><a class="header__link" href="https://www.figma.com/file/74wXlorl9mZQP0uhqDg83j/Online-Zoo">Design</a></li>
+        </ul>
+      </nav>
+      <div class="header__profile">
+        <a href=""><img class="header__profile-img" src="../../assets/icons/profile.png" alt="profile"></a>
+      </div>
+    </header>
+  </div>
+  </div>
+  <div class="wrapper">
+  <!--side-bar-->
+  <div class="aside-back">
+    <div class="aside-wrapper">
+    <div class="aside-tonnel">
+      <aside class="side-bar">
+        <a class="side-bar__link-logo" href="./index.html"><img class="side-bar__logo" src="../../assets/icons/logo.png" alt="logo"></a>
+       
+        <ul class="side-bar__list">
+          <li><a class="side-bar__arrow" href=""><img class="side-bar__arrow" src="../../assets/icons/up.svg" alt="up"></a></li>
+          <li><a href="panda.html">
+          <svg class="side-bar__svg panda" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+          <g clip-path="url(#clip0)">
+          <path d="M43.0881 17.2035C42.2325 16.3587 41.0995 15.8936 39.8975 15.8936C38.6725 15.8936 37.5243 16.3742 36.6639 17.2468L35.6916 18.2332C33.1988 16.593 30.4209 15.73 27.6141 15.73C24.8071 15.73 22.0292 16.593 19.5367 18.2332L18.5641 17.2468C17.7037 16.3742 16.5552 15.8939 15.3305 15.8939C14.1288 15.8939 12.9958 16.359 12.1402 17.204C10.3578 18.9644 10.3387 21.8483 12.0974 23.6327L13.5323 25.0881C12.6354 26.9617 12.1638 28.8987 12.1638 30.7244C12.1638 37.1939 18.0841 41.2128 27.6144 41.2128C37.1445 41.2128 43.0648 37.1939 43.0648 30.7244C43.0648 28.899 42.5929 26.9623 41.6957 25.0881L43.1311 23.6327C44.8896 21.8483 44.8705 18.9644 43.0881 17.2035ZM41.9286 22.4458L40.068 24.3329C39.8095 24.5954 39.7507 24.9949 39.9226 25.3207C40.8736 27.1228 41.3761 28.9913 41.3761 30.7241C41.3761 37.2116 34.2668 39.5231 27.6139 39.5231C20.9607 39.5231 13.8514 37.2116 13.8514 30.7241C13.8514 28.991 14.3539 27.1222 15.3046 25.3207C15.4765 24.9949 15.4174 24.5951 15.1591 24.3329L13.2988 22.4458C12.1936 21.3246 12.2057 19.5124 13.3255 18.4064C13.8632 17.8756 14.575 17.583 15.3302 17.583C16.1 17.583 16.8216 17.8852 17.3624 18.4334L18.8319 19.9238C19.1243 20.2203 19.5888 20.2588 19.9264 20.0156C22.2791 18.3171 24.9373 17.4194 27.6141 17.4194C30.2904 17.4194 32.9486 18.3171 35.3016 20.0156C35.6389 20.2591 36.104 20.2203 36.3964 19.9238L37.8659 18.4334C38.4064 17.8852 39.128 17.583 39.8978 17.583C40.6533 17.583 41.3651 17.8756 41.9025 18.4061C43.0223 19.5127 43.0341 21.3246 41.9286 22.4458Z" fill="#0F0049"/>
+          <path d="M16.8998 26.7945C15.2789 28.4167 14.9672 30.7343 16.2035 31.9713C17.4395 33.2088 19.7553 32.8966 21.3762 31.2744C22.9968 29.6525 23.3085 27.3349 22.0725 26.0976C20.8363 24.8607 18.5204 25.1727 16.8998 26.7945ZM18.8918 30.6183C18.0565 30.6183 17.3795 29.9409 17.3795 29.1049C17.3795 28.2689 18.0565 27.5914 18.8918 27.5914C19.7272 27.5914 20.4041 28.2689 20.4041 29.1049C20.4041 29.9409 19.7272 30.6183 18.8918 30.6183Z" fill="#0F0049"/>
+          <path d="M33.1554 26.0976C31.9188 27.3349 32.2312 29.6525 33.8518 31.2744C35.4724 32.8966 37.7885 33.2086 39.0245 31.9713C40.261 30.7344 39.9487 28.4167 38.3281 26.7945C36.7075 25.1727 34.3911 24.8607 33.1554 26.0976ZM36.3361 30.6183C35.5008 30.6183 34.8238 29.9409 34.8238 29.1049C34.8238 28.2689 35.5008 27.5914 36.3361 27.5914C37.1715 27.5914 37.8484 28.2689 37.8484 29.1049C37.8484 29.9409 37.1712 30.6183 36.3361 30.6183Z" fill="#0F0049"/>
+          <path d="M29.1957 32.4922C29.5781 32.4116 29.8651 32.0729 29.8651 31.666C29.8651 31.1994 29.4872 30.8213 29.021 30.8213H26.2074C25.7412 30.8213 25.3634 31.1994 25.3634 31.666C25.3634 32.0726 25.6504 32.4113 26.0324 32.4922L24.6631 33.8626C24.3333 34.1923 24.3333 34.7273 24.6631 35.057C24.828 35.222 25.044 35.3045 25.2598 35.3045C25.4756 35.3045 25.6917 35.222 25.8566 35.057L27.6139 33.2983L29.3713 35.057C29.5362 35.222 29.7522 35.3045 29.968 35.3045C30.1838 35.3045 30.3999 35.222 30.5648 35.057C30.8945 34.7273 30.8945 34.1923 30.5648 33.8626L29.1957 32.4922Z" fill="#0F0049"/>
+          </g>
+          <rect class="side-bar__svg-circle" x="1" y="1" width="53" height="53" rx="26.5" stroke="#609FFF" stroke-width="2"/>
+          <defs>
+          <clipPath id="clip0">
+          <rect width="33.7719" height="26.0526" fill="white" transform="translate(10.614 15.4385)"/>
+          </clipPath>
+          </defs>
+          </svg></a></li>
+        <li><a href="alligator.html">
+          <svg class="side-bar__svg alligator" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+          <circle class="side-bar__svg-circle" cx="27.5" cy="27.5" r="26.5" stroke="#D9E8FF" stroke-width="2"/>
+          <path d="M41.946 22.1463C41.946 19.3216 40.2416 16.2741 37.2693 13.7851C34.4478 11.4223 30.9827 10.0117 27.9999 10.0117C22.0393 10.0117 14.0537 16.0112 14.0537 22.1466C14.0537 24.081 16.6321 27.7977 17.18 28.5652C18.4393 30.4891 20.1344 33.8704 19.7927 35.0546C18.8284 38.3929 18.8256 40.9409 19.7839 42.6272C20.5664 44.0046 21.6954 44.2696 21.8215 44.2952C21.8746 44.306 21.928 44.3114 21.982 44.3114H34.0175C34.0669 44.3114 34.1163 44.3069 34.1649 44.2979C34.2913 44.2744 35.4231 44.0284 36.2116 42.6654C37.1818 40.9888 37.1801 38.4281 36.207 35.0549C35.8622 33.8596 37.5243 30.5463 38.8198 28.5646C39.3682 27.7962 41.946 24.0804 41.946 22.1463ZM37.4306 27.5189C36.8299 28.4345 33.8695 33.1277 34.5776 35.5826C35.5873 39.0823 35.2502 40.8229 34.7895 41.6668C34.4682 42.2551 34.0556 42.4508 33.9067 42.5047H22.0956C21.9609 42.4523 21.563 42.2572 21.2435 41.6954C20.7638 40.8506 20.4051 39.1046 21.4219 35.5829C22.1308 33.128 19.1698 28.4345 18.5691 27.5189C18.5626 27.5087 18.5555 27.4988 18.5487 27.4888C17.3896 25.8678 15.7576 23.1386 15.7576 22.1463C15.7576 17.1595 22.9425 11.8179 27.9996 11.8179C33.6059 11.8179 40.2416 17.4164 40.2416 22.1463C40.2416 23.1371 38.6096 25.8666 37.4505 27.4888C37.444 27.4985 37.4369 27.5087 37.4306 27.5189Z" fill="#0F0049"/>
+          <path d="M26.8763 38.1565H25.1721V40.5997H26.8763V38.1565Z" fill="#0F0049"/>
+          <path d="M30.8276 38.1565H29.1234V40.5997H30.8276V38.1565Z" fill="#0F0049"/>
+          <path d="M29.9755 28.9634H26.0242V30.7698H29.9755V28.9634Z" fill="#0F0049"/>
+          <path d="M29.9755 32.6287H26.0242V34.4351H29.9755V32.6287Z" fill="#0F0049"/>
+          <path d="M19.2541 22.7402L22.6273 26.3159L23.8323 25.0386L20.4591 21.4629L19.2541 22.7402Z" fill="#0F0049"/>
+          <path d="M32.1689 25.0379L33.3738 26.3154L36.7475 22.7402L35.5426 21.4627L32.1689 25.0379Z" fill="#0F0049"/>
+          <path d="M31.8697 18.8821H24.13V20.6885H31.8697V18.8821Z" fill="#0F0049"/>
+          <path d="M31.8697 15.269H24.13V17.0755H31.8697V15.269Z" fill="#0F0049"/>
+          </svg></a></li>
+        <li><a href="eagle.html">
+          <svg class="side-bar__svg eagle" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+          <circle class="side-bar__svg-circle" cx="27.5" cy="27.5" r="26.5" stroke="#D9E8FF" stroke-width="2"/>
+          <path d="M40.7961 39.7364L38.8997 22.3005C38.8699 16.079 33.9978 11.0273 28.0133 11.0273C22.0289 11.0273 17.1567 16.0793 17.1273 22.3005L15.2305 39.7364C15.1988 40.0281 15.293 40.3195 15.488 40.5317C15.683 40.7442 15.9592 40.8574 16.2395 40.8356C16.2591 40.8343 18.1987 40.7003 19.9454 40.7003C21.1766 40.7003 21.7886 40.7663 22.0853 40.8221C23.5711 41.0999 26.4714 43.0588 27.4635 43.7904C27.6284 43.9115 27.8209 43.9726 28.0133 43.9726C28.2061 43.9726 28.3995 43.9112 28.5644 43.7891C29.5255 43.0779 32.3388 41.1676 33.7952 40.8745C34.1303 40.8072 34.8393 40.727 36.3153 40.727C38.0132 40.727 39.7768 40.8349 39.7942 40.8362C40.0729 40.8498 40.3475 40.7409 40.5409 40.529C40.7343 40.3172 40.8279 40.0268 40.7961 39.7364ZM36.3153 38.747C34.9908 38.747 34.0488 38.8071 33.434 38.9308C31.7282 39.274 29.1573 40.9762 28.0121 41.7804C26.8395 40.96 24.1729 39.2011 22.4214 38.8731C21.8713 38.7701 21.0612 38.7203 19.9448 38.7203C18.9821 38.7203 17.9837 38.7579 17.2468 38.7945L19.023 22.4691C19.0272 22.4321 19.0291 22.3949 19.0291 22.3579C19.0291 17.202 23.0591 13.0077 28.013 13.0077C32.9667 13.0077 36.997 17.202 36.997 22.3579C36.997 22.3952 36.9992 22.4325 37.003 22.4691L38.7799 38.8034C38.1064 38.7751 37.21 38.747 36.3153 38.747Z" fill="#0F0049"/>
+          <path d="M22.306 23.5802C23.2472 23.5802 24.0102 22.7861 24.0102 21.8065C24.0102 20.8268 23.2472 20.0327 22.306 20.0327C21.3647 20.0327 20.6017 20.8268 20.6017 21.8065C20.6017 22.7861 21.3647 23.5802 22.306 23.5802Z" fill="#0F0049"/>
+          <path d="M33.7206 23.5802C34.6619 23.5802 35.4249 22.7861 35.4249 21.8065C35.4249 20.8268 34.6619 20.0327 33.7206 20.0327C32.7794 20.0327 32.0164 20.8268 32.0164 21.8065C32.0164 22.7861 32.7794 23.5802 33.7206 23.5802Z" fill="#0F0049"/>
+          <path d="M28.0133 35.8038L32.2583 24.363H23.7677L28.0133 35.8038ZM28.0133 30.308L26.5421 26.343H29.4845L28.0133 30.308Z" fill="#0F0049"/>
+          </svg></a></li>
+        <li><a href="gorilla.html">
+          <svg class="side-bar__svg gorilla" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+          <circle class="side-bar__svg-circle" cx="27.5" cy="27.5" r="26.5" stroke="#D9E8FF" stroke-width="2"/>
+          <path d="M42.8886 31.5795C42.7656 29.4356 42.1956 25.184 41.487 23.1056C39.9589 18.6203 35.4014 11.0295 28.0114 11.0295C20.6225 11.0295 16.0642 18.6203 14.5359 23.1056C13.8267 25.1859 13.257 29.4367 13.1345 31.5798C12.9484 34.8364 14.1711 38.014 16.5778 40.5276C19.2814 43.3512 23.0772 44.9706 26.9922 44.9706H29.0311C32.9456 44.9706 36.7414 43.3512 39.445 40.5276C41.8517 38.0137 43.0748 34.8364 42.8886 31.5795ZM38.2336 39.3973C35.8784 41.8568 32.4384 43.3251 29.0309 43.3251H26.992C23.5845 43.3251 20.1439 41.8568 17.7889 39.3971C15.7003 37.2158 14.6384 34.4725 14.7984 31.6722C14.9186 29.5754 15.4778 25.5012 16.1156 23.6296C17.407 19.8405 21.555 12.6744 28.0117 12.6744C34.4695 12.6744 38.6167 19.8405 39.9075 23.6298C40.545 25.4996 41.1048 29.5743 41.225 31.6722C41.3848 34.4725 40.3225 37.2161 38.2336 39.3973Z" fill="#0F0049"/>
+          <path d="M32.4711 21.1135C30.8286 21.1135 29.2719 21.6589 28.0114 22.6635C26.7508 21.6589 25.1941 21.1135 23.5514 21.1135C19.6255 21.1135 16.4316 24.2662 16.4316 28.1414C16.4316 30.7177 17.8291 33.0316 20.0608 34.2641C19.8297 34.781 19.7103 35.3225 19.7103 35.8654C19.7103 38.9556 23.3564 41.3759 28.0114 41.3759C32.6664 41.3759 36.3122 38.9556 36.3122 35.8654C36.3122 35.3225 36.1925 34.7807 35.9616 34.2641C38.1933 33.0316 39.5905 30.7174 39.5905 28.1414C39.5908 24.2662 36.3969 21.1135 32.4711 21.1135ZM34.4855 33.1397L33.4897 33.5309L34.1194 34.3872C34.4686 34.8619 34.6458 35.3593 34.6458 35.8654C34.6458 37.9608 31.6075 39.7307 28.0116 39.7307C24.4155 39.7307 21.3772 37.9608 21.3772 35.8654C21.3772 35.3595 21.5544 34.8624 21.9039 34.3872L22.5336 33.5309L21.538 33.1397C19.4489 32.3187 18.0991 30.3566 18.0991 28.1414C18.0991 25.1735 20.5453 22.7587 23.5522 22.7587C25.015 22.7587 26.3889 23.3238 27.4208 24.3496L28.0122 24.9377L28.6036 24.3496C29.6355 23.3238 31.0091 22.7587 32.4719 22.7587C35.4786 22.7587 37.925 25.1735 37.925 28.1414C37.9241 30.3566 36.5744 32.3187 34.4855 33.1397Z" fill="#0F0049"/>
+          <path d="M23.0111 28.9529C23.8357 28.9529 24.5042 28.2931 24.5042 27.4792C24.5042 26.6652 23.8357 26.0054 23.0111 26.0054C22.1865 26.0054 21.5181 26.6652 21.5181 27.4792C21.5181 28.2931 22.1865 28.9529 23.0111 28.9529Z" fill="#0F0049"/>
+          <path d="M33.0116 28.9529C33.8362 28.9529 34.5047 28.2931 34.5047 27.4792C34.5047 26.6652 33.8362 26.0054 33.0116 26.0054C32.187 26.0054 31.5186 26.6652 31.5186 27.4792C31.5186 28.2931 32.187 28.9529 33.0116 28.9529Z" fill="#0F0049"/>
+          <path d="M27.3894 31.9082H25.7228V34.1262H27.3894V31.9082Z" fill="#0F0049"/>
+          <path d="M30.3 31.9082H28.6333V34.1262H30.3V31.9082Z" fill="#0F0049"/>
+          </svg></a></li>
+        <li><a href="">
+          <svg class="side-bar__svg unknown" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+          <circle class="side-bar__svg-circle" cx="27.5" cy="27.5" r="26.5" stroke="#D9E8FF" stroke-width="2"/>
+          <path d="M27.374 31.048C27.266 31.048 27.176 31.012 27.104 30.94C27.032 30.868 26.996 30.778 26.996 30.67V29.95C27.02 29.314 27.182 28.768 27.482 28.312C27.782 27.856 28.22 27.334 28.796 26.746C29.264 26.266 29.606 25.87 29.822 25.558C30.038 25.246 30.146 24.904 30.146 24.532C30.146 23.98 29.912 23.542 29.444 23.218C28.988 22.894 28.454 22.732 27.842 22.732C26.414 22.732 25.574 23.452 25.322 24.892C25.262 25.156 25.106 25.288 24.854 25.288H23.99C23.87 25.288 23.774 25.252 23.702 25.18C23.63 25.108 23.594 25.012 23.594 24.892C23.618 24.232 23.804 23.626 24.152 23.074C24.512 22.51 25.016 22.06 25.664 21.724C26.312 21.388 27.056 21.22 27.896 21.22C28.784 21.22 29.528 21.376 30.128 21.688C30.74 21.988 31.19 22.384 31.478 22.876C31.766 23.356 31.91 23.872 31.91 24.424C31.91 25.036 31.772 25.564 31.496 26.008C31.22 26.452 30.806 26.968 30.254 27.556C29.798 28.036 29.456 28.444 29.228 28.78C29 29.104 28.868 29.47 28.832 29.878C28.808 30.214 28.796 30.466 28.796 30.634C28.736 30.91 28.586 31.048 28.346 31.048H27.374ZM27.23 34C27.11 34 27.008 33.964 26.924 33.892C26.852 33.808 26.816 33.706 26.816 33.586V32.488C26.816 32.368 26.852 32.272 26.924 32.2C27.008 32.116 27.11 32.074 27.23 32.074H28.4C28.52 32.074 28.622 32.116 28.706 32.2C28.79 32.272 28.832 32.368 28.832 32.488V33.586C28.832 33.706 28.79 33.808 28.706 33.892C28.622 33.964 28.52 34 28.4 34H27.23Z" fill="#0F0049"/>
+          </svg></a></li>
+        <li><a class="side-bar__arrow" href=""><img class="side-bar__arrow" src="../../assets/icons/down.svg" alt="down"></a></li>
+        </ul>
+      </aside>
+      <div class="zoogeography__nav">
+        <ul class="zoogeography__nav-list">
+          <li><a class="zoogeography__nav-arrow" href=""><img src="../../assets/icons/Arrow-1.png" alt="left"></a></li>
+          <li><a href="panda.html">
+            <svg class="zoogeography__nav-svg nav-panda" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 55 55" fill="none">
+              <g clip-path="url(#clip0)">
+              <path d="M43.0881 17.2035C42.2325 16.3587 41.0995 15.8936 39.8975 15.8936C38.6725 15.8936 37.5243 16.3742 36.6639 17.2468L35.6916 18.2332C33.1988 16.593 30.4209 15.73 27.6141 15.73C24.8071 15.73 22.0292 16.593 19.5367 18.2332L18.5641 17.2468C17.7037 16.3742 16.5552 15.8939 15.3305 15.8939C14.1288 15.8939 12.9958 16.359 12.1402 17.204C10.3578 18.9644 10.3387 21.8483 12.0974 23.6327L13.5323 25.0881C12.6354 26.9617 12.1638 28.8987 12.1638 30.7244C12.1638 37.1939 18.0841 41.2128 27.6144 41.2128C37.1445 41.2128 43.0648 37.1939 43.0648 30.7244C43.0648 28.899 42.5929 26.9623 41.6957 25.0881L43.1311 23.6327C44.8896 21.8483 44.8705 18.9644 43.0881 17.2035ZM41.9286 22.4458L40.068 24.3329C39.8095 24.5954 39.7507 24.9949 39.9226 25.3207C40.8736 27.1228 41.3761 28.9913 41.3761 30.7241C41.3761 37.2116 34.2668 39.5231 27.6139 39.5231C20.9607 39.5231 13.8514 37.2116 13.8514 30.7241C13.8514 28.991 14.3539 27.1222 15.3046 25.3207C15.4765 24.9949 15.4174 24.5951 15.1591 24.3329L13.2988 22.4458C12.1936 21.3246 12.2057 19.5124 13.3255 18.4064C13.8632 17.8756 14.575 17.583 15.3302 17.583C16.1 17.583 16.8216 17.8852 17.3624 18.4334L18.8319 19.9238C19.1243 20.2203 19.5888 20.2588 19.9264 20.0156C22.2791 18.3171 24.9373 17.4194 27.6141 17.4194C30.2904 17.4194 32.9486 18.3171 35.3016 20.0156C35.6389 20.2591 36.104 20.2203 36.3964 19.9238L37.8659 18.4334C38.4064 17.8852 39.128 17.583 39.8978 17.583C40.6533 17.583 41.3651 17.8756 41.9025 18.4061C43.0223 19.5127 43.0341 21.3246 41.9286 22.4458Z" fill="#0F0049"/>
+              <path d="M16.8998 26.7945C15.2789 28.4167 14.9672 30.7343 16.2035 31.9713C17.4395 33.2088 19.7553 32.8966 21.3762 31.2744C22.9968 29.6525 23.3085 27.3349 22.0725 26.0976C20.8363 24.8607 18.5204 25.1727 16.8998 26.7945ZM18.8918 30.6183C18.0565 30.6183 17.3795 29.9409 17.3795 29.1049C17.3795 28.2689 18.0565 27.5914 18.8918 27.5914C19.7272 27.5914 20.4041 28.2689 20.4041 29.1049C20.4041 29.9409 19.7272 30.6183 18.8918 30.6183Z" fill="#0F0049"/>
+              <path d="M33.1554 26.0976C31.9188 27.3349 32.2312 29.6525 33.8518 31.2744C35.4724 32.8966 37.7885 33.2086 39.0245 31.9713C40.261 30.7344 39.9487 28.4167 38.3281 26.7945C36.7075 25.1727 34.3911 24.8607 33.1554 26.0976ZM36.3361 30.6183C35.5008 30.6183 34.8238 29.9409 34.8238 29.1049C34.8238 28.2689 35.5008 27.5914 36.3361 27.5914C37.1715 27.5914 37.8484 28.2689 37.8484 29.1049C37.8484 29.9409 37.1712 30.6183 36.3361 30.6183Z" fill="#0F0049"/>
+              <path d="M29.1957 32.4922C29.5781 32.4116 29.8651 32.0729 29.8651 31.666C29.8651 31.1994 29.4872 30.8213 29.021 30.8213H26.2074C25.7412 30.8213 25.3634 31.1994 25.3634 31.666C25.3634 32.0726 25.6504 32.4113 26.0324 32.4922L24.6631 33.8626C24.3333 34.1923 24.3333 34.7273 24.6631 35.057C24.828 35.222 25.044 35.3045 25.2598 35.3045C25.4756 35.3045 25.6917 35.222 25.8566 35.057L27.6139 33.2983L29.3713 35.057C29.5362 35.222 29.7522 35.3045 29.968 35.3045C30.1838 35.3045 30.3999 35.222 30.5648 35.057C30.8945 34.7273 30.8945 34.1923 30.5648 33.8626L29.1957 32.4922Z" fill="#0F0049"/>
+              </g>
+              <rect class="zoogeography__nav-circle" x="1" y="1" width="53" height="53" rx="26.5" stroke="#609FFF" stroke-width="2"/>
+              <defs>
+              <clipPath id="clip0">
+              <rect width="33.7719" height="26.0526" fill="white" transform="translate(10.614 15.4385)"/>
+              </clipPath>
+              </defs>
+              </svg></a></li>
+          <li><a href="alligator.html">
+            <svg class="zoogeography__nav-svg nav-alligator" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 55 55" fill="none">
+            <circle class="zoogeography__nav-circle" cx="27.5" cy="27.5" r="26.5" stroke="#D9E8FF" stroke-width="2"/>
+            <path d="M41.946 22.1463C41.946 19.3216 40.2416 16.2741 37.2693 13.7851C34.4478 11.4223 30.9827 10.0117 27.9999 10.0117C22.0393 10.0117 14.0537 16.0112 14.0537 22.1466C14.0537 24.081 16.6321 27.7977 17.18 28.5652C18.4393 30.4891 20.1344 33.8704 19.7927 35.0546C18.8284 38.3929 18.8256 40.9409 19.7839 42.6272C20.5664 44.0046 21.6954 44.2696 21.8215 44.2952C21.8746 44.306 21.928 44.3114 21.982 44.3114H34.0175C34.0669 44.3114 34.1163 44.3069 34.1649 44.2979C34.2913 44.2744 35.4231 44.0284 36.2116 42.6654C37.1818 40.9888 37.1801 38.4281 36.207 35.0549C35.8622 33.8596 37.5243 30.5463 38.8198 28.5646C39.3682 27.7962 41.946 24.0804 41.946 22.1463ZM37.4306 27.5189C36.8299 28.4345 33.8695 33.1277 34.5776 35.5826C35.5873 39.0823 35.2502 40.8229 34.7895 41.6668C34.4682 42.2551 34.0556 42.4508 33.9067 42.5047H22.0956C21.9609 42.4523 21.563 42.2572 21.2435 41.6954C20.7638 40.8506 20.4051 39.1046 21.4219 35.5829C22.1308 33.128 19.1698 28.4345 18.5691 27.5189C18.5626 27.5087 18.5555 27.4988 18.5487 27.4888C17.3896 25.8678 15.7576 23.1386 15.7576 22.1463C15.7576 17.1595 22.9425 11.8179 27.9996 11.8179C33.6059 11.8179 40.2416 17.4164 40.2416 22.1463C40.2416 23.1371 38.6096 25.8666 37.4505 27.4888C37.444 27.4985 37.4369 27.5087 37.4306 27.5189Z" fill="#0F0049"/>
+            <path d="M26.8763 38.1565H25.1721V40.5997H26.8763V38.1565Z" fill="#0F0049"/>
+            <path d="M30.8276 38.1565H29.1234V40.5997H30.8276V38.1565Z" fill="#0F0049"/>
+            <path d="M29.9755 28.9634H26.0242V30.7698H29.9755V28.9634Z" fill="#0F0049"/>
+            <path d="M29.9755 32.6287H26.0242V34.4351H29.9755V32.6287Z" fill="#0F0049"/>
+            <path d="M19.2541 22.7402L22.6273 26.3159L23.8323 25.0386L20.4591 21.4629L19.2541 22.7402Z" fill="#0F0049"/>
+            <path d="M32.1689 25.0379L33.3738 26.3154L36.7475 22.7402L35.5426 21.4627L32.1689 25.0379Z" fill="#0F0049"/>
+            <path d="M31.8697 18.8821H24.13V20.6885H31.8697V18.8821Z" fill="#0F0049"/>
+            <path d="M31.8697 15.269H24.13V17.0755H31.8697V15.269Z" fill="#0F0049"/>
+            </svg></a></li>
+          <li><a href="eagle.html">
+            <svg class="zoogeography__nav-svg nav-eagle" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 55 55" fill="none">
+            <circle class="zoogeography__nav-circle" cx="27.5" cy="27.5" r="26.5" stroke="#D9E8FF" stroke-width="2"/>
+            <path d="M40.7961 39.7364L38.8997 22.3005C38.8699 16.079 33.9978 11.0273 28.0133 11.0273C22.0289 11.0273 17.1567 16.0793 17.1273 22.3005L15.2305 39.7364C15.1988 40.0281 15.293 40.3195 15.488 40.5317C15.683 40.7442 15.9592 40.8574 16.2395 40.8356C16.2591 40.8343 18.1987 40.7003 19.9454 40.7003C21.1766 40.7003 21.7886 40.7663 22.0853 40.8221C23.5711 41.0999 26.4714 43.0588 27.4635 43.7904C27.6284 43.9115 27.8209 43.9726 28.0133 43.9726C28.2061 43.9726 28.3995 43.9112 28.5644 43.7891C29.5255 43.0779 32.3388 41.1676 33.7952 40.8745C34.1303 40.8072 34.8393 40.727 36.3153 40.727C38.0132 40.727 39.7768 40.8349 39.7942 40.8362C40.0729 40.8498 40.3475 40.7409 40.5409 40.529C40.7343 40.3172 40.8279 40.0268 40.7961 39.7364ZM36.3153 38.747C34.9908 38.747 34.0488 38.8071 33.434 38.9308C31.7282 39.274 29.1573 40.9762 28.0121 41.7804C26.8395 40.96 24.1729 39.2011 22.4214 38.8731C21.8713 38.7701 21.0612 38.7203 19.9448 38.7203C18.9821 38.7203 17.9837 38.7579 17.2468 38.7945L19.023 22.4691C19.0272 22.4321 19.0291 22.3949 19.0291 22.3579C19.0291 17.202 23.0591 13.0077 28.013 13.0077C32.9667 13.0077 36.997 17.202 36.997 22.3579C36.997 22.3952 36.9992 22.4325 37.003 22.4691L38.7799 38.8034C38.1064 38.7751 37.21 38.747 36.3153 38.747Z" fill="#0F0049"/>
+            <path d="M22.306 23.5802C23.2472 23.5802 24.0102 22.7861 24.0102 21.8065C24.0102 20.8268 23.2472 20.0327 22.306 20.0327C21.3647 20.0327 20.6017 20.8268 20.6017 21.8065C20.6017 22.7861 21.3647 23.5802 22.306 23.5802Z" fill="#0F0049"/>
+            <path d="M33.7206 23.5802C34.6619 23.5802 35.4249 22.7861 35.4249 21.8065C35.4249 20.8268 34.6619 20.0327 33.7206 20.0327C32.7794 20.0327 32.0164 20.8268 32.0164 21.8065C32.0164 22.7861 32.7794 23.5802 33.7206 23.5802Z" fill="#0F0049"/>
+            <path d="M28.0133 35.8038L32.2583 24.363H23.7677L28.0133 35.8038ZM28.0133 30.308L26.5421 26.343H29.4845L28.0133 30.308Z" fill="#0F0049"/>
+            </svg></a></li>
+          <li><a href="gorilla.html">
+            <svg class="zoogeography__nav-svg nav-gorilla" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 55 55" fill="none">
+            <circle class="zoogeography__nav-circle" cx="27.5" cy="27.5" r="26.5" stroke="#D9E8FF" stroke-width="2"/>
+            <path d="M42.8886 31.5795C42.7656 29.4356 42.1956 25.184 41.487 23.1056C39.9589 18.6203 35.4014 11.0295 28.0114 11.0295C20.6225 11.0295 16.0642 18.6203 14.5359 23.1056C13.8267 25.1859 13.257 29.4367 13.1345 31.5798C12.9484 34.8364 14.1711 38.014 16.5778 40.5276C19.2814 43.3512 23.0772 44.9706 26.9922 44.9706H29.0311C32.9456 44.9706 36.7414 43.3512 39.445 40.5276C41.8517 38.0137 43.0748 34.8364 42.8886 31.5795ZM38.2336 39.3973C35.8784 41.8568 32.4384 43.3251 29.0309 43.3251H26.992C23.5845 43.3251 20.1439 41.8568 17.7889 39.3971C15.7003 37.2158 14.6384 34.4725 14.7984 31.6722C14.9186 29.5754 15.4778 25.5012 16.1156 23.6296C17.407 19.8405 21.555 12.6744 28.0117 12.6744C34.4695 12.6744 38.6167 19.8405 39.9075 23.6298C40.545 25.4996 41.1048 29.5743 41.225 31.6722C41.3848 34.4725 40.3225 37.2161 38.2336 39.3973Z" fill="#0F0049"/>
+            <path d="M32.4711 21.1135C30.8286 21.1135 29.2719 21.6589 28.0114 22.6635C26.7508 21.6589 25.1941 21.1135 23.5514 21.1135C19.6255 21.1135 16.4316 24.2662 16.4316 28.1414C16.4316 30.7177 17.8291 33.0316 20.0608 34.2641C19.8297 34.781 19.7103 35.3225 19.7103 35.8654C19.7103 38.9556 23.3564 41.3759 28.0114 41.3759C32.6664 41.3759 36.3122 38.9556 36.3122 35.8654C36.3122 35.3225 36.1925 34.7807 35.9616 34.2641C38.1933 33.0316 39.5905 30.7174 39.5905 28.1414C39.5908 24.2662 36.3969 21.1135 32.4711 21.1135ZM34.4855 33.1397L33.4897 33.5309L34.1194 34.3872C34.4686 34.8619 34.6458 35.3593 34.6458 35.8654C34.6458 37.9608 31.6075 39.7307 28.0116 39.7307C24.4155 39.7307 21.3772 37.9608 21.3772 35.8654C21.3772 35.3595 21.5544 34.8624 21.9039 34.3872L22.5336 33.5309L21.538 33.1397C19.4489 32.3187 18.0991 30.3566 18.0991 28.1414C18.0991 25.1735 20.5453 22.7587 23.5522 22.7587C25.015 22.7587 26.3889 23.3238 27.4208 24.3496L28.0122 24.9377L28.6036 24.3496C29.6355 23.3238 31.0091 22.7587 32.4719 22.7587C35.4786 22.7587 37.925 25.1735 37.925 28.1414C37.9241 30.3566 36.5744 32.3187 34.4855 33.1397Z" fill="#0F0049"/>
+            <path d="M23.0111 28.9529C23.8357 28.9529 24.5042 28.2931 24.5042 27.4792C24.5042 26.6652 23.8357 26.0054 23.0111 26.0054C22.1865 26.0054 21.5181 26.6652 21.5181 27.4792C21.5181 28.2931 22.1865 28.9529 23.0111 28.9529Z" fill="#0F0049"/>
+            <path d="M33.0116 28.9529C33.8362 28.9529 34.5047 28.2931 34.5047 27.4792C34.5047 26.6652 33.8362 26.0054 33.0116 26.0054C32.187 26.0054 31.5186 26.6652 31.5186 27.4792C31.5186 28.2931 32.187 28.9529 33.0116 28.9529Z" fill="#0F0049"/>
+            <path d="M27.3894 31.9082H25.7228V34.1262H27.3894V31.9082Z" fill="#0F0049"/>
+            <path d="M30.3 31.9082H28.6333V34.1262H30.3V31.9082Z" fill="#0F0049"/>
+            </svg></a></li>
+            <li><a class="zoogeography__nav-arrow" href=""><img src="../../assets/icons/Arrow-2.png" alt="right"></a></li>
+        </ul>
+      </div>
+  </div>
+  </div>
+  </div>
+  <!--main content-->
+  <div class="section-back">
+    <div class="section-wrapper">
+      <div class="main-other-cams">
+    <!--main cam-->
+    <section class="main-cam">
+      <div class="main-cam__video">
+        <iframe class="main-cam__iframe" width="1064" height="599" src="https://www.youtube.com/embed/RmmAzrAkKqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="main-cam__description">
+        <div class="main-cam__avatar-text">
+          <img class="main-cam__avatar" src="../../assets/images/zoos/bird-icon.png" alt="eagle-avatar">
+          <div>
+            <p class="main-cam__description_zoo">Raptor resourse project</p>
+            <div class="main-cam__eye">
+            <img src="../../assets/icons/eye.png" alt="eye"><span class="main-cam__text_number">      268 watching now</span>
+          </div>
+        </div>
+        </div>
+        <h4 class="main-cam__heading4">You can donate to this animals for a wonderful lunch.</h4>
+        <span class="main-cam__text_grey">Eagles will receive a mixture of bamboo shoots, carrots and apples. Animals will receive your gift in about 5-15 minutes</span>
+        <a class="main-cam__btn" href="">Feed the eagle</a>
+      </div>
+      </div>
+    </section>
+    <!--other cams-->
+    <section class="other-cams">
+      <div class="other-cams__heading">
+        <h3 class="other-cams__heading_3">Other cams</h3>
+        <img class="other-cams__triangle" src="../../assets/icons/Polygon 1.png" alt="triangle">
+      </div>
+      <div class="other-cams__carouselle-wrapper">
+        <div class="other-cams__carouselle">
+      <div class="other-cams__video">
+        <div class="other-cams__iframe-descr">
+          <!-- <iframe class="other-cams__iframe" src="https://www.youtube.com/embed/hTfbB02IRLQ"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <div class="other-cams__opacity-div"></div>
+          <img class="other-cams__preview"
+            src="http://img.youtube.com/vi/hTfbB02IRLQ/0.jpg" data-src="https://www.youtube.com/embed/hTfbB02IRLQ" alt="preview" alt="">
+          <div class="other-cams__video-text">
+            <h4 class="other-cams__heading_4">112 viewers</h4>
+            <span class="other-cams__video-link">Watch  <img src="../../assets/icons/Arrow(1.png"></span>
+          </div>
+        </div>
+        <div class="other-cams__iframe-descr">
+          <!-- <iframe class="other-cams__iframe" src="https://www.youtube.com/embed/Nj37Uc_uKj8"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <div class="other-cams__opacity-div"></div>
+          <img class="other-cams__preview"
+            src="http://img.youtube.com/vi/Nj37Uc_uKj8/0.jpg" data-src="https://www.youtube.com/embed/Nj37Uc_uKj8" alt="preview" alt="">
+          <div class="other-cams__video-text">
+            <h4 class="other-cams__heading_4">11 viewers</h4>
+            <span class="other-cams__video-link">Watch  <img src="../../assets/icons/Arrow(1.png"></span>
+          </div>
+        </div>
+        <div class="other-cams__iframe-descr">
+          <!-- <iframe class="other-cams__iframe" src="https://www.youtube.com/embed/Nj37Uc_uKj8"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <div class="other-cams__opacity-div"></div>
+          <img class="other-cams__preview"
+            src="http://img.youtube.com/vi/Nj37Uc_uKj8/0.jpg" data-src="https://www.youtube.com/embed/Nj37Uc_uKj8" alt="preview" alt="">
+          <div class="other-cams__video-text">
+            <h4 class="other-cams__heading_4">11 viewers</h4>
+            <span class="other-cams__video-link">Watch  <img src="../../assets/icons/Arrow(1.png"></span>
+          </div>
+        </div>
+        <div class="other-cams__iframe-descr">
+          <!-- <iframe class="other-cams__iframe" src="https://www.youtube.com/embed/Nj37Uc_uKj8"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <div class="other-cams__opacity-div"></div>
+          <img class="other-cams__preview"
+            src="http://img.youtube.com/vi/Nj37Uc_uKj8/0.jpg" data-src="https://www.youtube.com/embed/Nj37Uc_uKj8" alt="preview" alt="">
+          <div class="other-cams__video-text">
+            <h4 class="other-cams__heading_4">11 viewers</h4>
+            <span class="other-cams__video-link">Watch  <img src="../../assets/icons/Arrow(1.png"></span>
+          </div>
+        </div>
+        <div class="other-cams__iframe-descr">
+          <!-- <iframe class="other-cams__iframe" src="https://www.youtube.com/embed/Nj37Uc_uKj8"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <div class="other-cams__opacity-div"></div>
+          <img class="other-cams__preview"
+            src="http://img.youtube.com/vi/Nj37Uc_uKj8/0.jpg" data-src="https://www.youtube.com/embed/Nj37Uc_uKj8" alt="preview" alt="">
+          <div class="other-cams__video-text">
+            <h4 class="other-cams__heading_4">11 viewers</h4>
+            <span class="other-cams__video-link">Watch  <img src="../../assets/icons/Arrow(1.png"></span>
+          </div>
+        </div>
+        <div class="other-cams__iframe-descr">
+          <!-- <iframe class="other-cams__iframe" src="https://www.youtube.com/embed/Nj37Uc_uKj8"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <div class="other-cams__opacity-div"></div>
+          <img class="other-cams__preview"
+            src="http://img.youtube.com/vi/Nj37Uc_uKj8/0.jpg" data-src="https://www.youtube.com/embed/Nj37Uc_uKj8" alt="preview" alt="">
+          <div class="other-cams__video-text">
+            <h4 class="other-cams__heading_4">11 viewers</h4>
+            <span class="other-cams__video-link">Watch  <img src="../../assets/icons/Arrow(1.png"></span>
+          </div>
+        </div>
+        <div class="other-cams__iframe-descr">
+          <!-- <iframe class="other-cams__iframe" src="https://www.youtube.com/embed/Nj37Uc_uKj8"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <div class="other-cams__opacity-div"></div>
+          <img class="other-cams__preview"
+            src="http://img.youtube.com/vi/Nj37Uc_uKj8/0.jpg" data-src="https://www.youtube.com/embed/Nj37Uc_uKj8" alt="preview" alt="">
+          <div class="other-cams__video-text">
+            <h4 class="other-cams__heading_4">11 viewers</h4>
+            <span class="other-cams__video-link">Watch  <img src="../../assets/icons/Arrow(1.png"></span>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="other-cams__btn-container">
+        <button class="other-cams__btn other-cams__btn_left"></button>
+        <button class="other-cams__btn other-cams__btn_right"></button>
+      </div>
+    </section>
+    </div>
+    </div>
+    <div class="main-cam__description_donate_640">
+      <h4 class="main-cam__heading4">You can donate to this animals for a wonderful lunch.</h4>
+      <span class="main-cam__text_grey">Pandas will receive a mixture of bamboo shoots, carrots and apples. Animals will receive your gift in about 5-15 minutes</span>
+      <a class="main-cam__btn" href="">Feed the panda</a>
+    </div>
+    <!--interesting facts-->
+    <div class="section-back">
+      <div class="section-wrapper">
+    <section class="facts">
+      <h3 class="facts__heading_3">Interesting facts</h3>
+      <span class="facts__text_grey">Welcome to Decorah, Iowa! This live cam overlooks a bald eagle nest high in a white oak tree in a secluded valley north of Decorah. Watch live and learn more about the eagles.</span>
+      <div class="facts__accordion">
+        <button class="facts__accordion-btn">Species population</button>
+        <div class="facts__accordion-panel">
+          <p>Most American alligators live in Florida and Louisiana. In Florida alone, their number is 1 million individuals.
+            Florida is the only place on Earth where alligators and real crocodiles coexist.</p>
+          </div>
+          <button class="facts__accordion-btn">Region of habitat</button>
+          <div class="facts__accordion-panel">
+            <p>The distribution area of ​​eagles is quite wide, and the habitat depends on the species of bird. Nevertheless, all representatives of the representatives prefer to settle away from civilization and humans, choosing mountainous or semi-open landscapes.
+
+              For example, the golden eagle inhabiting the territory of Russia (in the north of the Caucasus and the south of Primorye) nests in a hard-to-reach forest zone, and its Australian relative, the wedge-tailed golden eagle, feels comfortable in the forests of New Guinea.
+               Steppe eagles live in steppes and semi-desert zones, inhabiting them from Transbaikalia to the Black Sea coast. 
+              The burial eagle took a fancy to the forest-steppes of Ukraine, the Kazakh steppe regions, the forests of the Czech Republic, Spain and Romania.
+               Eagles are found in Iran and China, in Hungary and Slovakia, in Greece and Germany.</p>
+          </div>
+          <button class="facts__accordion-btn">Nutrition</button>
+          <div class="facts__accordion-panel">
+            <p>Currently, birds of prey from the Hawk family, represented by:
+
+              Hawk eagle (A.fаsciata or H.fаsciatus);
+              Indian hawk eagle (Lorhotriorchis kieneri);
+              Berkut (A. chrysaetos);
+              Stone eagle (A. arakh);
+              Kaffir eagle (A.verreauuxii);
+              Silver eagle (A.wahlbergi);
+              Wedge-tailed eagle (A.audax).
+              
+              The birds received the conservation status "Vulnerable Species":
+              
+              Burial ground (A. helias);
+              Spanish burial ground (A.adalberti);
+              Greater spotted eagle (A. clanga).
+              The endangered species is represented by the Steppe eagle (A. niralensis), and the close to vulnerable position is the Moluccan eagle (Аquila gurneyi). The dwarf eagle (A. renata or H. renata) and the burial ground in a number of countries are included in the pages of the national Red Book.</p>
+          </div>
+      </div>
+    </section>
+    </div>
+    </div>
+     <!--Pay and feed-->
+     <div class="section-back pay-and-feed-color">
+      <div class="section-wrapper pay-and-feed-color">
+  <section id="pay-and-feed" class="pay-and-feed">
+    <h2 class="pay-and-feed__heading_2">Pay & feed</h2>
+    <div class="pay-and-feed__stage">
+      <div class="pay-and-feed__stage_1">
+        <img class="pay-and-feed__img" src="../../assets/images/landing/pay-feend1.png" alt="VISA card">
+        <div class="pay-and-feed__text-block">
+          <p class="pay-and-feed__heading_0">Pay with VISA card</p>
+          <p class="pay-and-feed__text">On the payment page, you need to enter the details of your "Visa" card and make a transfer. The operation will not take more than ~2 minutes.</p>
+        </div>
+        <img class="pay-and-feed__arrow pay-and-feed__arrow_1" src="../../assets/images/landing/Vector2.png" alt="next">
+      </div>
+      <div class="pay-and-feed__stage_2">
+        <img class="pay-and-feed__arrow pay-and-feed__arrow_2" src="../../assets/images/landing/Vector4.png" alt="next">
+        <img class="pay-and-feed__img" src="../../assets/images/landing/pay-feend2.png" alt="ballon">
+        <div class="pay-and-feed__text-block">
+          <p class="pay-and-feed__heading_0">Payment goes to the zoo</p>
+          <p class="pay-and-feed__text">Payment goes to the account of the zoo and volunteers with employees receive a notification about the donation.</p>
+        </div>
+      </div>
+      <div class="pay-and-feed__stage_3">
+        <img class="pay-and-feed__img" src="../../assets/images/landing/pay-feend3.png" alt="animals">
+        <div class="pay-and-feed__text-block">
+          <p class="pay-and-feed__heading_0">The selected animal receives a treat</p>
+          <p class="pay-and-feed__text">The staff takes the food you need for your chosen animal and delivers it to the animal. With your help, the animal is happy!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>    
+</div>
+ <!--Footer-->
+ <div class="footer-back">
+  <div class="footer-wrapper">
+  <footer class="footer">
+    <div class="footer__columns">
+      <div class="footer__logos">
+        <a href="./index.html"><img class="footer__logo footer__logo_zoo" src="../../assets/icons/logo-footer.png" alt="logo"></a>
+        <div class="footer__partner-logos">
+          <img class="footer__logo_yem" src="../../assets/icons/yem_digital.png" title ="Yem Digital" alt="©Yem">
+          <span class="footer__logos_x">  X  </span>
+          <img class="footer__logo_rss" src="../../assets/icons/rs_school_js.png" title="Rolling Scopes School" alt="©RSSchool">
+        </div>
+      </div>
+      <nav class="footer__nav">
+        <h2 class="footer__heading_2">Navigation</h2>
+        <ul class="footer__nav-list">
+          <li class="footer__link-item"><a class="footer__link" href="index.html#watch-animal">Watch online</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="index.html#how-works">How it works</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="index.html#famous-pets">Famous pets</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="index.html#pay-and-feed">Pay & feed</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="index.html#testimonials">Testimonials</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="index.html#zoogeography">Zoogeography</a></li>
+        </ul>
+      </nav>
+      <div class="footer__donate">
+        <h2 class="footer__heading_2">Support of volunteers</h2>
+        <span class="footer__donate-text">You can thank the volunteers for their work. For example, caring for animals and sincere love for them</span>
+        <button class="footer__btn">Donate for volunteers</button>
+        <ul class="footer__net-list">
+          <li class="footer__net-link-item"><a class="footer__net-link" href="https://www.instagram.com/">Instagram</a></li>
+          <li class="footer__net-link-item"><a class="footer__net-link" href="https://www.facebookcom/">Facebook</a></li>
+          <li class="footer__net-link-item"><a class="footer__net-link" href="https://www.twitter.com/">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__subscr">
+      <p class="footer__subscr-text">Copyright ©RSSchool and ©Yem Digital 2020 - 2021</p>
+      <p class="footer__subscr-text">Designed by Vladislav Chernov</p>
+    </div>
+  </footer>
+</div>
+</div>
+</body>
+<script src="../js/zoos.js"></script>
+</html>

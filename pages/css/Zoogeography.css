@@ -1,0 +1,282 @@
+.map {
+    display: flex;
+    padding: 50px 91px 0px 244px;
+    position: relative;
+  }
+  .card-to-animals_block {
+    position: absolute;
+width: 344px;
+height: 512px;
+left: 0px;
+top: 138px;
+background: #FCFCFC;
+box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
+border-radius: 15px;
+  }
+  .card-to-animals_block-img {
+    background: url('../../assets/images/landing/eagle-2.png');
+    height: 218px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .card-to-animals span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.115em;
+    color: #000000;
+  }
+  .card-to-animals_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 344px;
+    height: 512px;
+    left: 244px;
+    top: 188px;
+  }
+  .card-to-animals_block h2 {
+    font-family: "Merriweather", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    color: #080029;
+    margin-top: 20px;
+  }
+  .card-to-animals_block p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #747474;
+    margin-top: 20px;
+  }
+  .link {
+    display: flex;
+    margin-top: 52px;
+    height: 19px;
+    width: 126px;
+  }
+  .link img {
+    margin-left: 10px;
+    border-radius: 15px
+  }
+  .link p {
+    color: #3888FF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 0px;
+    white-space: nowrap;
+  }
+  .map-world {
+    position: relative;
+    width: 1216px;
+    height: 698px;
+    background-image: url("../../assets/images/landing/world.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 112px;
+    margin-left: 192px;
+  }
+  
+  .map-world__marker {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 69px;
+    height: 69px;
+    border-radius: 69px 69px 0px 69px;
+    background: #FCFCFC;
+    box-shadow: 1px 12px 22px rgba(0, 0, 0, 0.09);
+    transform: rotate(45deg);
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all .3s;
+  }
+  
+  .map-world__marker img {
+    transform: rotate(-45deg);
+  }
+  
+  .map-world__marker.active {
+    border: 2px solid #609FFF;
+    width: 96px;
+    height: 96px;
+    border-radius: 96px 96px 0px 96px;
+  }
+  
+  .map-world__marker:hover {
+    border: 2px solid #609FFF;
+    width: 96px;
+    height: 96px;
+    border-radius: 96px 96px 0px 96px;
+  }
+  
+
+  
+  .map-world .eagle {
+    top: 168px;
+    left: 128px;
+  }
+  
+  .map-world .alligator {
+    left: 273px;
+    top: 226px;
+  }
+  
+  .map-world .gorilla {
+    left: 591px;
+    top: 343px;
+  }
+  
+  .map-world .panda {
+    left: 909px;
+    top: 204px;
+  }
+  
+
+@media(max-width: 1200px) {
+.map {
+    display: flex;
+    padding: 50px 91px 155px 184px;
+    position: relative;
+  }
+  .card-to-animals_block {
+    position: absolute;
+width: 292px;
+height: 448px;
+left: 184px;
+top: 184px;
+background: #FCFCFC;
+box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
+border-radius: 15px;
+  }
+  .card-to-animals_block-img {
+    height: 194px;
+  }
+  .card-to-animals span {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .card-to-animals_block h2 {
+    font-size: 28px;
+    line-height: 41px;
+    margin-top: 20px;
+  }
+  .card-to-animals_block p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 15px;
+  }
+  .link p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .map-world {
+    position: relative;
+    width: 675px;
+    height: 389px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+  }
+  .map-world .eagle {
+    top: 0px;
+    left: 0px;
+  }
+  
+  .map-world .alligator {
+    left: 0px;
+    top: 0px;
+  }
+  
+  .map-world .gorilla {
+    left: 0px;
+    top: 0px;
+  }
+  
+  .map-world .panda {
+    left: 909px;
+    top: 204px;
+  }
+  
+}
+@media(max-width: 640px) {
+  .map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .card-to-animals_block {
+    z-index: 2;
+    left: 195px;
+top: 80px;
+  }
+  .card-to-animals span {
+    display: none;
+  }
+  .map-world {
+    position: relative;
+    width: 600px;
+    height: 389px;
+    margin-top: 450px;
+    margin-left: -120px;
+  }
+}
+@media(max-width: 320px) {
+  .map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 400px;
+  }
+  .card-to-animals_block {
+    z-index: 2;
+    left: 35px;
+top: 80px;
+  }
+  .card-to-animals_block {
+    position: absolute;
+width: 250px;
+height: 374px;
+left: 35px;
+top: 60px;
+background: #FCFCFC;
+box-shadow: 4px 12px 22px rgba(0, 0, 0, 0.06);
+border-radius: 15px;
+  }
+  .card-to-animals span {
+    display: none;
+  }
+  .link span {
+    display: inline-block;
+  }
+  .map-world {
+    display: none;
+    position: relative;
+    width: 600px;
+    height: 389px;
+    margin-top: 450px;
+    margin-left: -120px;
+  }
+  .card-to-animals_block h2 {
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 20px;
+  }
+  .card-to-animals_block p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+  }
+}

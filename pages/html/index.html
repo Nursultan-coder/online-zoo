@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../assets/icons/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <title>Online Zoo</title>
+</head>
+<body id="body" class="body">
+  <aside class="aside">
+    <a href="./index.html" class="logo logo_enabled">
+      <img class="logo__icon" src="../../assets/icons/logo.png" alt="logo">
+    </a>
+    <div class="aside__nav">
+      <div class="aside-add-block"></div>
+    <ul class="aside-links">
+      <li>
+        <a class="aside__social-link" href="https://www.instagram.com/">
+          <img class="aside__social-icon" src="../../assets/icons/instagram.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="aside__social-link" href="https://www.facebook.com/">
+          <img class="aside__social-icon" src="../../assets/icons/facebook.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="aside__social-link" href="https://twitter.com/">
+          <img class="aside__social-icon" src="../../assets/icons/twitter.png" alt="">
+        </a>
+      </li>
+    </ul>
+    <a href="#top">
+      <button class="aside-up">
+        <img src="../../assets/icons/go_up.png" alt="">
+      </button>
+    </a>
+    </div>
+  </aside>
+  <div id="popup" class="popup hidden">
+    <h2 class="popup__h2">Your feedback</h2>
+    <form class="popup__form">
+      <label class="popup__label" for="text">Your name:</label>
+      <input class="popup__input popup__input_margin" id="text" type="text" placeholder="Ellie Coward" required>
+      <label class="popup__label" for="email">Your e-mail:</label>
+      <input class="popup__input popup__input_margin" id="email" type="email" placeholder="example@gmail.com" required>
+      <label class="popup__label" for="textarea">Your review:</label>
+      <textarea class="popup__textarea popup__textarea_margin" id="textarea" required></textarea>
+      <button id="button" class="popup__button popup__button_invalid" type="submit">Send for moderation</button>
+    </form>
+  </div>
+  <div id="cover" class="cover hidden"></div>
+  <main class="main">
+    <header id="top">
+      <div class="header-wrapper">
+        <h1 class="online-zoo">Online Zoo</h1>
+        <a href="index.html" class="logo logo_disabled">
+          <img class="logo__icon" src="../../assets/icons/logo.png" alt="logo">
+        </a>
+        <div class="nav-wrapper">
+          <nav>
+            <ul>
+              <li>
+                <div class="nav-wrapper_text-center nav-wrapper__about pseudo-hover" >About</div>
+              </li>
+              <li>
+                <a class="nav-wrapper_text-center nav-wrapper__map" href="./map.html" >Map</a>
+              </li>
+              <li>
+                <a class="nav-wrapper_text-center nav-wrapper__zoos" href="./panda.html" >Zoos</a>
+              </li>
+              <li>
+                <a class="nav-wrapper_text-center nav-wrapper__contacts" href="./404.html">Contacts us</a>
+              </li>
+              <li>
+                <a class="nav-wrapper_text-center nav-wrapper__design" href="https://www.figma.com/file/74wXlorl9mZQP0uhqDg83j/Online-Zoo">Design</a>
+              </li>
+            </ul>
+          </nav>
+          <img class="user" src="../../assets/icons/profile.png" alt="">
+        </div>
+        <button class="nav-wrapper__menu"></button>
+      </div>   
+    </header>
+    <section class="watch-online" id="watch-online">
+      <div class="watch-online-wrapper">
+        <div class="watch-online-wrapper-content">
+          <h2 class="watch-online-wrapper-content__h2">Wild park</h2>
+          <h3 class="watch-online-wrapper-content__h3">Watch your favorite animal onl<span class="letter-wrapper">
+              <span class="letter-wrapper__part">.</span>
+              <span class="letter-wrapper__part">ı</span>
+            </span>ne</h3>
+          <div class="watch-online-wrapper-content__buttons">
+            <a href="./map.html">
+              <button class="watch-online-wrapper-content__button-choose">Choose zoo</button>
+            </a>
+            <a href="./panda.html">
+              <button id="one" class="watch-online-wrapper-content__button-online">Watch online</button>
+            </a>
+          </div>
+        </div>
+        <picture >
+          <source srcset="../../assets/images/landing/panda.png" media="(max-width: 750px)">
+          <img class="watch-online-wrapper-content__img" src="../../assets/images/landing/watch-img.png" alt="Panda">
+        </picture>
+      </div>
+    </section>
+    <section class="how-it-works-wrapper" id="how-it-works">
+      <div class="how-it-works">
+        <picture class="how-it-works__picture">
+          <source srcset="../../assets/images/landing/ph1.png" media="(max-width: 639px)">
+          <source srcset="../../assets/images/landing/ph1.png" media="(max-width: 750px)">
+          <img class="how-it-works__img" src="../../assets/images/landing/ph1.png" alt="Lion">
+        </picture>
+        <div class="try-now">
+          <h2 class="try-now__h2">How Zoo online works</h2>
+          <h3 class="try-now__h3">Our service will give you an unforgettable experience of observing and interacting with animals remotely</h3>
+          <h4 class="try-now__h4">Zoo Online is a web application with which you can watch live cages of different animals in nature reserves and zoos online and, if you wish, donate to the needs of the animal you like</h4>
+          <a href="./panda.html">
+            <button class="try-now__button">Try now</button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="famous-pets-wrapper" id="famous-pets">
+      <div class="slider">
+        <div class="slider__nav">
+          <h2 class="slider__h2">Famous pets</h2>
+          <h3 class="slider__h3">You can choose any animal <br> you like</h3>
+          <div class="slider__buttons">
+            <button id="slider__button_left" class="slider__button slider__button_left">
+              <img src="../../assets/icons/Arrow2(2.png" alt="">
+            </button>
+            <button id="slider__button_right" class="slider__button slider__button_right">
+              <img src="../../assets/icons/Arrow2(2.png" alt="">
+            </button>
+          </div>
+        </div>
+        <div id="slider" class="slider__items">
+          <ul id="content" class="slider__content">
+            <li class="item_overflow item item_item1">
+              <div class="item__background item__background_item1"></div>
+              <div class="item__circle" ></div>
+              <div class="item__location">China, East Asia</div>
+              <a href="" class="item__link" data-name="Little panda"></a>
+            </li>
+            <li class="item_overflow item item_item2">
+              <div class="item__background item__background_item2"></div>
+              <div class="item__circle"></div>
+              <div class="item__location">In the sea of the Southern Hemisphere, Antarctic waters</div>
+              <a href="" class="item__link" data-name="Penguin"></a>
+            </li>
+            <li class="item_overflow item item_item3">
+              <div class="item__background item__background_item3"></div>
+              <div class="item__circle"></div>>
+              <div class="item__location">Russia, forests in the Orenburg region</div>
+              <a href="" class="item__link" data-name="Squirrel"></a>
+            </li>
+            <li class="item_overflow item item_item4">
+              <div class="item__background item__background_item4"></div>
+              <div class="item__circle"></div> 
+              <div class="item__location">Western central China</div>
+              <a href="" class="item__link" data-name="Panda"></a>
+            </li>
+            <li class="item_overflow item item_item5">
+              <div class="item__background item__background_item5"></div>
+              <div class="item__circle"></div>
+              <div class="item__location">North America, islands near Los Angeles</div>
+              <a href="" class="item__link" data-name="Eagles"></a>
+            </li>
+            <li class="item_overflow item item_item6">
+              <div class="item__background item__background_item6"></div>
+              <div class="item__circle"></div>
+              <div class="item__location">Equatorial forests of western and central Africa</div>
+              <a href="" class="item__link" data-name="Gorilla"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="pay-and-feed-wrapper" id="pay-&-feed">
+      <div class="pay-and-feed">
+        <h2 class="pay-and-feed__h2 pay-and-feed__h2_disabled">Pay & feed</h2>
+        <div class="pay-and-feed__content-wrapper pay-and-feed__content-wrapper_align-center">
+          <h2 class="pay-and-feed__h2 pay-and-feed__h2_enabled">Pay & feed</h2>
+          <div class="pay-and-feed__content">
+            <div class="pay-and-feed__img pay-and-feed__img_security"></div>
+            <div class="pay-and-feed__in-details pay-and-feed__in-details_margin-top-55px">
+              <h3 class="pay-and-feed__h3">Pay with VISA card</h3>
+              <h4 class="pay-and-feed__h4">On the payment page, you need to enter the details of your "Visa" card and make a transfer. The operation will not take more than ~2 minutes.</h4>
+            </div>
+            <div class="pay-and-feed__security-delivery-arrow"></div>
+          </div>
+        </div>
+        <div class="pay-and-feed__content pay-and-feed__content_align-right">
+          <div class="pay-and-feed__img pay-and-feed__img_delivery"></div>
+          <div class="pay-and-feed__in-details pay-and-feed__in-details_margin-top-104px">
+            <h3 class="pay-and-feed__h3">Payment goes to the zoo</h3>
+            <h4 class="pay-and-feed__h4">Payment goes to the account of the zoo and volunteers with employees receive a notification about the donation.</h4>
+          </div>
+          <div class="pay-and-feed__delivery-security-arrow"></div>
+        </div>
+        <div class="pay-and-feed__content pay-and-feed__content_align-left">
+          <div class="pay-and-feed__img pay-and-feed__img_animal pay-and-feed__img_bckgrnd-size"></div>
+          <div class="pay-and-feed__in-details pay-and-feed__in-details_margin-top-41px">
+            <h3 class="pay-and-feed__h3">The selected animal receives a treat</h3>
+            <h4 class="pay-and-feed__h4">The staff takes the food you need for your chosen animal and delivers it to the animal. With your help, the animal is happy!</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials-wrapper" id="testimonials">
+      <div class="testimonials">
+        <div class="testimonials__feedback">
+          <h2 class="testimonials__h2">Testimonials</h2>
+          <h3 class="testimonials__h3">You can make us smile</h3>
+          <h4 class="testimonials__h4">We want to make animal observation and interaction accessible. You can leave your wishes on how to make the service more convenient, and most importantly, more interesting for you.</h4>
+          <button id="feedback-button" class="testimonials__button">Leave feedback</button>
+        </div>
+        <div class="testimonials-slider">
+          <a href="" class="testimonials-slider__link">See more reviews →</a>
+          <ul id="testimonials-slider__items" class="testimonials-slider__items">
+            <li class="testimonials-slider__item">
+              <div class="testimonials-slider__person">
+                <div class="testimonials-slider__avatar testimonials-slider__avatar_avatar1"></div>
+                <div class="testimonials-slider__name">Alena Andreeva</div>
+              </div>
+              <div class="testimonials-slider__feedback">“Had a great time with my kids and made the cute pandas happy with delicious treats. I think I will use your service more than once, thanks!”</div>
+            </li>
+            <li class="testimonials-slider__item">
+              <div class="testimonials-slider__person">
+                <div class="testimonials-slider__avatar testimonials-slider__avatar_avatar2"></div>
+                <div class="testimonials-slider__name">Joe Brown</div>
+              </div>
+              <div class="testimonials-slider__feedback">“Thank you for the cool service, I turn on broadcasts with animals while working in the background, it relaxes and cheers up”</div>
+            </li>
+            <li class="testimonials-slider__item">
+              <div class="testimonials-slider__person">
+                <div class="testimonials-slider__avatar testimonials-slider__avatar_avatar2"></div>
+                <div class="testimonials-slider__name">Student 1</div>
+              </div>
+              <div class="testimonials-slider__feedback">“Good job! Good job! Good job! Good job! Good job! Good job! Good job! Good job! Good job! Good job!”</div>
+            </li>
+          </ul>
+          <div class="testimonials-slider__nav">
+            <button id="testimonials-slider__button_left" class="testimonials-slider__button testimonials-slider__button_left"></button>
+            <button id="testimonials-slider__button_right" class="testimonials-slider__button testimonials-slider__button_right"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="zoogeography-wrapper" id="zoogeography">
+      <div class="zoogeography">
+        <div class="zoogeography__animal-wrapper">
+          <h2 class="zoogeography__h2">Zoogeography</h2>
+          <div id="card" class="zoogeography__animal">
+            <picture>
+              <img src="../../assets/images/landing/eagle-2.png" alt="Animal Photo" class="zoogeography__animal-photo">
+            </picture>
+            <div class="zoogeography__animal-info">
+              <h3 class="zoogeography__h3">Eagle</h3>
+              <h4 class="zoogeography__h4">The broadcast is from an island near Los Angeles. Watch their real life.</h4>
+              <a href="./eagle.html" class="zoogeography__link">Watch now →</a>
+            </div>
+          </div>
+        </div>
+        <ul id="map" class="zoogeography__map">
+          <li data-pos="0" class="zoogeography__mark zoogeography__mark_item1 zoogeography__mark_active">
+            <svg class="zoogeography__svg-mark zoogeography__tranansition" width="113" height="123" viewBox="0 0 140 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d)">
+                <path d="M117 58.2222C117 84.8546 69 134 69 134C69 134 21 84.8546 21 58.2222C21 31.5898 42.4903 10 69 10C95.5097 10 117 31.5898 117 58.2222Z" 
+                    fill="#FCFCFC"/>
+                <path class="zoogeography__svg-path zoogeography__tranansition" d="M116 58.2222C116 64.6241 113.1 72.5078 108.62 80.8237C104.155 89.1106 98.1902 97.7032 92.2071 105.489C86.2268 113.271 80.244 120.227 75.7552 125.238C73.5112 127.743 71.6417 129.76 70.334 131.151C69.786 131.734 69.3368 132.207 69 132.559C68.6632 132.207 68.214 131.734 67.666 131.151C66.3583 129.76 64.4888 127.743 62.2449 125.238C57.756 120.227 51.7732 113.271 45.7929 105.489C39.8098 97.7032 33.845 89.1106 29.3804 80.8237C24.9001 72.5078 22 64.6241 22 58.2222C22 32.1377 43.047 11 69 11C94.953 11 116 32.1377 116 58.2222Z" 
+                    stroke="#609FFF" 
+                    stroke-width="0"/>
+              </g>
+              <defs>
+                <filter id="filter0_d" x="0" y="0" width="140" height="168" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                  <feOffset dx="1" dy="12"/>
+                  <feGaussianBlur stdDeviation="11"/>
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"/>
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                </filter>
+              </defs>
+            </svg>
+            <svg class="zoogeography__mark-animal zoogeography__tranansition" width="40" height="47" viewBox="0 0 54 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path class="zoogeography__mark-fill" d="M52.7158 58.2361L48.8596 22.9013C48.799 10.2931 38.8917 0.0556641 26.7227 0.0556641C14.5537 0.0556641 4.64643 10.2938 4.58647 22.9013L0.729569 58.2361C0.665094 58.8273 0.856587 59.4178 1.25311 59.8479C1.64963 60.2785 2.21121 60.5079 2.78117 60.4638C2.82114 60.4611 6.76508 60.1896 10.317 60.1896C12.8206 60.1896 14.0649 60.3233 14.6684 60.4364C17.6897 60.9995 23.5873 64.9692 25.6047 66.4519C25.94 66.6973 26.3313 66.8211 26.7227 66.8211C27.1147 66.8211 27.508 66.6967 27.8433 66.4492C29.7975 65.008 35.5184 61.1366 38.4797 60.5427C39.1612 60.4063 40.6029 60.2438 43.6042 60.2438C47.0568 60.2438 50.6429 60.4624 50.6784 60.4651C51.2451 60.4925 51.8035 60.2719 52.1968 59.8425C52.5901 59.4132 52.7803 58.8246 52.7158 58.2361ZM43.6042 56.2312C40.9111 56.2312 38.9955 56.3529 37.7454 56.6037C34.2766 57.2992 29.049 60.7487 26.7201 62.3785C24.3358 60.7159 18.9135 57.1514 15.3519 56.4866C14.2332 56.278 12.5859 56.177 10.3157 56.177C8.35826 56.177 6.32794 56.2532 4.82954 56.3275L8.44143 23.2431C8.44982 23.1681 8.45368 23.0926 8.45368 23.0177C8.45368 12.5689 16.6485 4.06892 26.7221 4.06892C36.795 4.06892 44.9904 12.5689 44.9904 23.0177C44.9904 23.0932 44.9949 23.1688 45.0027 23.2431L48.6159 56.3455C47.2464 56.288 45.4237 56.2312 43.6042 56.2312Z" fill="#080029"/>
+                <path class="zoogeography__mark-fill" d="M15.1173 25.4944C17.0312 25.4944 18.5828 23.885 18.5828 21.8998C18.5828 19.9145 17.0312 18.3052 15.1173 18.3052C13.2033 18.3052 11.6517 19.9145 11.6517 21.8998C11.6517 23.885 13.2033 25.4944 15.1173 25.4944Z" fill="#080029"/>
+                <path class="zoogeography__mark-fill" d="M38.3282 25.4944C40.2422 25.4944 41.7937 23.885 41.7937 21.8998C41.7937 19.9145 40.2422 18.3052 38.3282 18.3052C36.4142 18.3052 34.8627 19.9145 34.8627 21.8998C34.8627 23.885 36.4142 25.4944 38.3282 25.4944Z" fill="#080029"/>
+                <path class="zoogeography__mark-fill" d="M26.7227 50.2664L35.3546 27.0811H18.0895L26.7227 50.2664ZM26.7227 39.1288L23.731 31.0936H29.7143L26.7227 39.1288Z" fill="#080029"/>
+              </g>
+            </svg>
+          </li>
+          <li data-pos="1" class="zoogeography__mark zoogeography__mark_item2">
+            <svg class="zoogeography__svg-mark zoogeography__tranansition" width="113" height="123" viewBox="0 0 140 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d)">
+                <path d="M117 58.2222C117 84.8546 69 134 69 134C69 134 21 84.8546 21 58.2222C21 31.5898 42.4903 10 69 10C95.5097 10 117 31.5898 117 58.2222Z" 
+                    fill="#FCFCFC"/>
+                <path class="zoogeography__svg-path zoogeography__tranansition" d="M116 58.2222C116 64.6241 113.1 72.5078 108.62 80.8237C104.155 89.1106 98.1902 97.7032 92.2071 105.489C86.2268 113.271 80.244 120.227 75.7552 125.238C73.5112 127.743 71.6417 129.76 70.334 131.151C69.786 131.734 69.3368 132.207 69 132.559C68.6632 132.207 68.214 131.734 67.666 131.151C66.3583 129.76 64.4888 127.743 62.2449 125.238C57.756 120.227 51.7732 113.271 45.7929 105.489C39.8098 97.7032 33.845 89.1106 29.3804 80.8237C24.9001 72.5078 22 64.6241 22 58.2222C22 32.1377 43.047 11 69 11C94.953 11 116 32.1377 116 58.2222Z" 
+                    stroke="#609FFF" 
+                    stroke-width="0"/>
+              </g>
+              <defs>
+                <filter id="filter0_d" x="0" y="0" width="140" height="168" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                  <feOffset dx="1" dy="12"/>
+                  <feGaussianBlur stdDeviation="11"/>
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"/>
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                </filter>
+              </defs>
+            </svg>
+            <svg class="zoogeography__mark-animal zoogeography__tranansition" width="40" height="47" viewBox="0 0 40 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g class="zoogeography__mark-fill" fill="#080029">
+                <path d="M39.9228 16.3106C39.9228 12.5174 37.4879 8.42509 33.2418 5.08273C29.2111 1.90978 24.2609 0.015625 19.9997 0.015625C11.4847 0.015625 0.0766602 8.07213 0.0766602 16.311C0.0766602 18.9086 3.76005 23.8997 4.54274 24.9303C6.34183 27.5138 8.76334 32.0545 8.27523 33.6446C6.89771 38.1275 6.89365 41.5491 8.26265 43.8136C9.38048 45.6632 10.9933 46.019 11.1735 46.0534C11.2494 46.0679 11.3256 46.0752 11.4027 46.0752H28.5964C28.667 46.0752 28.7376 46.0692 28.8069 46.057C28.9875 46.0255 30.6044 45.6952 31.7308 43.8649C33.1168 41.6133 33.1144 38.1748 31.7243 33.645C31.2317 32.0399 33.6061 27.5906 35.4568 24.9295C36.2403 23.8977 39.9228 18.9078 39.9228 16.3106ZM33.4722 23.5253C32.6141 24.7548 28.385 31.0571 29.3965 34.3537C30.8389 39.0533 30.3573 41.3906 29.6992 42.5238C29.2403 43.3138 28.6507 43.5766 28.4381 43.649H11.565C11.3727 43.5787 10.8043 43.3167 10.3478 42.5622C9.66248 41.4278 9.15002 39.0832 10.6026 34.3541C11.6154 31.0575 7.38542 24.7548 6.52726 23.5253C6.51793 23.5116 6.50778 23.4982 6.49804 23.4849C4.84218 21.3081 2.51075 17.6432 2.51075 16.3106C2.51075 9.61414 12.775 2.44103 19.9993 2.44103C28.0084 2.44103 37.4879 9.95901 37.4879 16.3106C37.4879 17.6411 35.1565 21.3065 33.5006 23.4849C33.4913 23.4978 33.4812 23.5116 33.4722 23.5253Z"/>
+                <path d="M18.3946 37.8101H15.9601V41.091H18.3946V37.8101Z"/>
+                <path d="M24.0395 37.8101H21.605V41.091H24.0395V37.8101Z"/>
+                <path d="M22.8221 25.4653H17.1774V27.8911H22.8221V25.4653Z"/>
+                <path d="M22.8221 30.3867H17.1774V32.8125H22.8221V30.3867Z"/>
+                <path d="M7.50585 17.108L12.3247 21.9097L14.0461 20.1944L9.22728 15.3927L7.50585 17.108Z"/>
+                <path d="M25.9556 20.1936L27.6768 21.9092L32.4963 17.1082L30.7751 15.3927L25.9556 20.1936Z"/>
+                <path d="M25.5281 11.9272H14.4714V14.3531H25.5281V11.9272Z"/>
+                <path d="M25.5281 7.07568H14.4714V9.50149H25.5281V7.07568Z"/>
+              </g>>
+            </svg>
+          </li>
+          <li data-pos="2" class="zoogeography__mark zoogeography__mark_item3">
+            <svg class="zoogeography__svg-mark zoogeography__tranansition" width="113" height="123" viewBox="0 0 140 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d)">
+                <path d="M117 58.2222C117 84.8546 69 134 69 134C69 134 21 84.8546 21 58.2222C21 31.5898 42.4903 10 69 10C95.5097 10 117 31.5898 117 58.2222Z" 
+                    fill="#FCFCFC"/>
+                <path class="zoogeography__svg-path zoogeography__tranansition" d="M116 58.2222C116 64.6241 113.1 72.5078 108.62 80.8237C104.155 89.1106 98.1902 97.7032 92.2071 105.489C86.2268 113.271 80.244 120.227 75.7552 125.238C73.5112 127.743 71.6417 129.76 70.334 131.151C69.786 131.734 69.3368 132.207 69 132.559C68.6632 132.207 68.214 131.734 67.666 131.151C66.3583 129.76 64.4888 127.743 62.2449 125.238C57.756 120.227 51.7732 113.271 45.7929 105.489C39.8098 97.7032 33.845 89.1106 29.3804 80.8237C24.9001 72.5078 22 64.6241 22 58.2222C22 32.1377 43.047 11 69 11C94.953 11 116 32.1377 116 58.2222Z" 
+                    stroke="#609FFF" 
+                    stroke-width="0"/>
+              </g>
+              <defs>
+                <filter id="filter0_d" x="0" y="0" width="140" height="168" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                  <feOffset dx="1" dy="12"/>
+                  <feGaussianBlur stdDeviation="11"/>
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"/>
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                </filter>
+              </defs>
+            </svg>
+            <svg class="zoogeography__mark-animal zoogeography__tranansition" width="40" height="46" viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g class="zoogeography__mark-fill" fill="#080029">
+                <path d="M39.8514 27.843C39.6874 24.9424 38.9274 19.1901 37.9826 16.3782C35.9451 10.3099 29.8685 0.0400391 20.0151 0.0400391C10.1633 0.0400391 4.08551 10.3099 2.04773 16.3782C1.10218 19.1927 0.342546 24.9438 0.179213 27.8433C-0.0689352 32.2493 1.56144 36.5485 4.77032 39.9491C8.37514 43.7693 13.4363 45.9603 18.6563 45.9603H21.3748C26.594 45.9603 31.6551 43.7693 35.26 39.9491C38.4688 36.5481 40.0996 32.2493 39.8514 27.843ZM33.6448 38.42C30.5044 41.7476 25.9177 43.7341 21.3744 43.7341H18.6559C14.1125 43.7341 9.52514 41.7476 6.38514 38.4196C3.60033 35.4686 2.1844 31.757 2.39773 27.9683C2.5581 25.1316 3.30366 19.6193 4.15403 17.0871C5.87588 11.9607 11.4066 2.26547 20.0155 2.26547C28.6259 2.26547 34.1555 11.9607 35.8766 17.0875C36.7266 19.6171 37.4729 25.1301 37.6333 27.9683C37.8463 31.757 36.43 35.4689 33.6448 38.42Z"/>
+                <path d="M25.9614 13.6831C23.7714 13.6831 21.6958 14.421 20.0151 15.7802C18.3343 14.421 16.2588 13.6831 14.0684 13.6831C8.83396 13.6831 4.57544 17.9485 4.57544 23.1914C4.57544 26.677 6.43877 29.8076 9.41433 31.4751C9.10618 32.1744 8.94692 32.907 8.94692 33.6415C8.94692 37.8223 13.8084 41.0969 20.0151 41.0969C26.2217 41.0969 31.0829 37.8223 31.0829 33.6415C31.0829 32.907 30.9232 32.174 30.6154 31.4751C33.591 29.8076 35.454 26.6766 35.454 23.1914C35.4543 17.9485 31.1958 13.6831 25.9614 13.6831ZM28.6473 29.9538L27.3195 30.4831L28.1591 31.6417C28.6247 32.2838 28.861 32.9567 28.861 33.6415C28.861 36.4765 24.8099 38.8711 20.0154 38.8711C15.2206 38.8711 11.1695 36.4765 11.1695 33.6415C11.1695 32.9571 11.4058 32.2845 11.8717 31.6417L12.7114 30.4831L11.384 29.9538C8.5984 28.8431 6.79877 26.1884 6.79877 23.1914C6.79877 19.176 10.0603 15.9089 14.0695 15.9089C16.0199 15.9089 17.8517 16.6735 19.2277 18.0613L20.0162 18.857L20.8047 18.0613C22.1806 16.6735 24.0121 15.9089 25.9625 15.9089C29.9714 15.9089 33.2332 19.176 33.2332 23.1914C33.2321 26.1884 31.4325 28.8431 28.6473 29.9538Z"/>
+                <path d="M13.3482 24.2892C14.4476 24.2892 15.3389 23.3965 15.3389 22.2952C15.3389 21.194 14.4476 20.3013 13.3482 20.3013C12.2487 20.3013 11.3574 21.194 11.3574 22.2952C11.3574 23.3965 12.2487 24.2892 13.3482 24.2892Z"/>
+                <path d="M26.6821 24.2892C27.7816 24.2892 28.6729 23.3965 28.6729 22.2952C28.6729 21.194 27.7816 20.3013 26.6821 20.3013C25.5827 20.3013 24.6914 21.194 24.6914 22.2952C24.6914 23.3965 25.5827 24.2892 26.6821 24.2892Z"/>
+                <path d="M19.1858 28.2876H16.9636V31.2884H19.1858V28.2876Z"/>
+                <path d="M23.0667 28.2876H20.8445V31.2884H23.0667V28.2876Z"/>
+              </g>
+            </svg>
+          </li>
+          <li data-pos="3" class="zoogeography__mark zoogeography__mark_item4">
+            <svg class="zoogeography__svg-mark zoogeography__tranansition" width="113" height="123" viewBox="0 0 140 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d)">
+                <path d="M117 58.2222C117 84.8546 69 134 69 134C69 134 21 84.8546 21 58.2222C21 31.5898 42.4903 10 69 10C95.5097 10 117 31.5898 117 58.2222Z" 
+                    fill="#FCFCFC"/>
+                <path class="zoogeography__svg-path zoogeography__tranansition" d="M116 58.2222C116 64.6241 113.1 72.5078 108.62 80.8237C104.155 89.1106 98.1902 97.7032 92.2071 105.489C86.2268 113.271 80.244 120.227 75.7552 125.238C73.5112 127.743 71.6417 129.76 70.334 131.151C69.786 131.734 69.3368 132.207 69 132.559C68.6632 132.207 68.214 131.734 67.666 131.151C66.3583 129.76 64.4888 127.743 62.2449 125.238C57.756 120.227 51.7732 113.271 45.7929 105.489C39.8098 97.7032 33.845 89.1106 29.3804 80.8237C24.9001 72.5078 22 64.6241 22 58.2222C22 32.1377 43.047 11 69 11C94.953 11 116 32.1377 116 58.2222Z" 
+                    stroke="#609FFF" 
+                    stroke-width="0"/>
+              </g>
+              <defs>
+                <filter id="filter0_d" x="0" y="0" width="140" height="168" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                  <feOffset dx="1" dy="12"/>
+                  <feGaussianBlur stdDeviation="11"/>
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"/>
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                </filter>
+              </defs>
+            </svg>
+            <svg class="zoogeography__mark-animal zoogeography__tranansition" width="44" height="35" viewBox="0 0 44 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g class="zoogeography__mark-fill" fill="#080029">
+                <path d="M42.0253 2.37611C40.9181 1.23898 39.4518 0.612802 37.8963 0.612802C36.311 0.612802 34.8251 1.25983 33.7117 2.43449L32.4533 3.76228C29.2273 1.55435 25.6325 0.392578 22.0002 0.392578C18.3675 0.392578 14.7727 1.55435 11.547 3.76228L10.2883 2.43449C9.17489 1.25983 7.68861 0.613182 6.10366 0.613182C4.54856 0.613182 3.0823 1.23936 1.97505 2.37687C-0.33156 4.74665 -0.356319 8.62882 1.91971 11.0308L3.77665 12.9901C2.61588 15.5122 2.00564 18.1197 2.00564 20.5774C2.00564 29.2863 9.66716 34.6964 22.0005 34.6964C34.3336 34.6964 41.9951 29.2863 41.9951 20.5774C41.9951 18.1201 41.3845 15.513 40.2233 12.9901L42.081 11.0308C44.3567 8.62882 44.3319 4.74665 42.0253 2.37611ZM40.5248 9.43315L38.117 11.9735C37.7824 12.3268 37.7063 12.8646 37.9287 13.3032C39.1594 15.7291 39.8097 18.2444 39.8097 20.577C39.8097 29.3102 30.6095 32.4218 21.9998 32.4218C13.3898 32.4218 4.18955 29.3102 4.18955 20.577C4.18955 18.244 4.83984 15.7283 6.07016 13.3032C6.29263 12.8646 6.21617 12.3264 5.88192 11.9735L3.47444 9.43315C2.04423 7.9238 2.05989 5.48427 3.50903 3.99539C4.20484 3.28089 5.12603 2.88706 6.10329 2.88706C7.09949 2.88706 8.03342 3.29378 8.73323 4.03178L10.635 6.03805C11.0133 6.43719 11.6144 6.48912 12.0513 6.16162C15.096 3.87523 18.5361 2.66684 22.0002 2.66684C25.4636 2.66684 28.9036 3.87523 31.9487 6.16162C32.3852 6.4895 32.9871 6.43719 33.3654 6.03805L35.2671 4.03178C35.9666 3.29378 36.9005 2.88706 37.8967 2.88706C38.8743 2.88706 39.7955 3.28089 40.491 3.99501C41.9401 5.48465 41.9554 7.9238 40.5248 9.43315Z"/>
+                <path d="M8.13473 15.287C6.03711 17.4707 5.63368 20.5906 7.23356 22.2557C8.83308 23.9216 11.83 23.5013 13.9277 21.3176C16.0249 19.1343 16.4283 16.0144 14.8288 14.3489C13.2289 12.6837 10.232 13.1037 8.13473 15.287ZM10.7126 20.4344C9.63157 20.4344 8.75553 19.5224 8.75553 18.3971C8.75553 17.2717 9.63157 16.3597 10.7126 16.3597C11.7936 16.3597 12.6697 17.2717 12.6697 18.3971C12.6697 19.5224 11.7936 20.4344 10.7126 20.4344Z"/>
+                <path d="M29.1711 14.3489C27.5709 16.0144 27.975 19.1343 30.0723 21.3176C32.1695 23.5013 35.1668 23.9213 36.7664 22.2557C38.3666 20.5906 37.9625 17.4707 35.8652 15.287C33.768 13.1037 30.7703 12.6837 29.1711 14.3489ZM33.2873 20.4344C32.2063 20.4344 31.3303 19.5225 31.3303 18.3971C31.3303 17.2717 32.2063 16.3597 33.2873 16.3597C34.3684 16.3597 35.2444 17.2717 35.2444 18.3971C35.2444 19.5225 34.368 20.4344 33.2873 20.4344Z"/>
+                <path d="M24.0469 22.9568C24.5417 22.8484 24.9131 22.3924 24.9131 21.8447C24.9131 21.2166 24.4241 20.7075 23.8208 20.7075H20.1797C19.5764 20.7075 19.0874 21.2166 19.0874 21.8447C19.0874 22.392 19.4588 22.848 19.9532 22.9568L18.1811 24.8016C17.7544 25.2454 17.7544 25.9656 18.1811 26.4095C18.3945 26.6316 18.6741 26.7427 18.9534 26.7427C19.2327 26.7427 19.5123 26.6316 19.7257 26.4095L21.9999 24.042L24.2741 26.4095C24.4875 26.6316 24.7671 26.7427 25.0464 26.7427C25.3256 26.7427 25.6053 26.6316 25.8186 26.4095C26.2454 25.9656 26.2454 25.2454 25.8186 24.8016L24.0469 22.9568Z"/>
+              </g>
+            </svg>
+          </li>
+        </ul>
+        <aside class="aside aside_disable">
+          <nav class="aside__nav">
+            <button class="aside__nav-button aside__nav-button_top"></button>
+            <div class="aside__animal-buttons">
+              <a href="./panda.html">
+                <button class="aside__animal-button">
+                  <svg class="aside__animal-svg" width="34" height="26" viewBox="0 0 44 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#080029">
+                      <path d="M42.0253 2.37611C40.9181 1.23898 39.4518 0.612802 37.8963 0.612802C36.311 0.612802 34.8251 1.25983 33.7117 2.43449L32.4533 3.76228C29.2273 1.55435 25.6325 0.392578 22.0002 0.392578C18.3675 0.392578 14.7727 1.55435 11.547 3.76228L10.2883 2.43449C9.17489 1.25983 7.68861 0.613182 6.10366 0.613182C4.54856 0.613182 3.0823 1.23936 1.97505 2.37687C-0.33156 4.74665 -0.356319 8.62882 1.91971 11.0308L3.77665 12.9901C2.61588 15.5122 2.00564 18.1197 2.00564 20.5774C2.00564 29.2863 9.66716 34.6964 22.0005 34.6964C34.3336 34.6964 41.9951 29.2863 41.9951 20.5774C41.9951 18.1201 41.3845 15.513 40.2233 12.9901L42.081 11.0308C44.3567 8.62882 44.3319 4.74665 42.0253 2.37611ZM40.5248 9.43315L38.117 11.9735C37.7824 12.3268 37.7063 12.8646 37.9287 13.3032C39.1594 15.7291 39.8097 18.2444 39.8097 20.577C39.8097 29.3102 30.6095 32.4218 21.9998 32.4218C13.3898 32.4218 4.18955 29.3102 4.18955 20.577C4.18955 18.244 4.83984 15.7283 6.07016 13.3032C6.29263 12.8646 6.21617 12.3264 5.88192 11.9735L3.47444 9.43315C2.04423 7.9238 2.05989 5.48427 3.50903 3.99539C4.20484 3.28089 5.12603 2.88706 6.10329 2.88706C7.09949 2.88706 8.03342 3.29378 8.73323 4.03178L10.635 6.03805C11.0133 6.43719 11.6144 6.48912 12.0513 6.16162C15.096 3.87523 18.5361 2.66684 22.0002 2.66684C25.4636 2.66684 28.9036 3.87523 31.9487 6.16162C32.3852 6.4895 32.9871 6.43719 33.3654 6.03805L35.2671 4.03178C35.9666 3.29378 36.9005 2.88706 37.8967 2.88706C38.8743 2.88706 39.7955 3.28089 40.491 3.99501C41.9401 5.48465 41.9554 7.9238 40.5248 9.43315Z"/>
+                      <path d="M8.13473 15.287C6.03711 17.4707 5.63368 20.5906 7.23356 22.2557C8.83308 23.9216 11.83 23.5013 13.9277 21.3176C16.0249 19.1343 16.4283 16.0144 14.8288 14.3489C13.2289 12.6837 10.232 13.1037 8.13473 15.287ZM10.7126 20.4344C9.63157 20.4344 8.75553 19.5224 8.75553 18.3971C8.75553 17.2717 9.63157 16.3597 10.7126 16.3597C11.7936 16.3597 12.6697 17.2717 12.6697 18.3971C12.6697 19.5224 11.7936 20.4344 10.7126 20.4344Z"/>
+                      <path d="M29.1711 14.3489C27.5709 16.0144 27.975 19.1343 30.0723 21.3176C32.1695 23.5013 35.1668 23.9213 36.7664 22.2557C38.3666 20.5906 37.9625 17.4707 35.8652 15.287C33.768 13.1037 30.7703 12.6837 29.1711 14.3489ZM33.2873 20.4344C32.2063 20.4344 31.3303 19.5225 31.3303 18.3971C31.3303 17.2717 32.2063 16.3597 33.2873 16.3597C34.3684 16.3597 35.2444 17.2717 35.2444 18.3971C35.2444 19.5225 34.368 20.4344 33.2873 20.4344Z"/>
+                      <path d="M24.0469 22.9568C24.5417 22.8484 24.9131 22.3924 24.9131 21.8447C24.9131 21.2166 24.4241 20.7075 23.8208 20.7075H20.1797C19.5764 20.7075 19.0874 21.2166 19.0874 21.8447C19.0874 22.392 19.4588 22.848 19.9532 22.9568L18.1811 24.8016C17.7544 25.2454 17.7544 25.9656 18.1811 26.4095C18.3945 26.6316 18.6741 26.7427 18.9534 26.7427C19.2327 26.7427 19.5123 26.6316 19.7257 26.4095L21.9999 24.042L24.2741 26.4095C24.4875 26.6316 24.7671 26.7427 25.0464 26.7427C25.3256 26.7427 25.6053 26.6316 25.8186 26.4095C26.2454 25.9656 26.2454 25.2454 25.8186 24.8016L24.0469 22.9568Z"/>
+                    </g>
+                  </svg>
+                </button>
+              </a>
+              <a href="../alligator.html">
+                <button class="aside__animal-button">
+                  <svg class="aside__animal-svg" width="29" height="34" viewBox="0 0 40 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g class="background-map__mark-fill" fill="#080029">
+                      <path d="M39.9228 16.3106C39.9228 12.5174 37.4879 8.42509 33.2418 5.08273C29.2111 1.90978 24.2609 0.015625 19.9997 0.015625C11.4847 0.015625 0.0766602 8.07213 0.0766602 16.311C0.0766602 18.9086 3.76005 23.8997 4.54274 24.9303C6.34183 27.5138 8.76334 32.0545 8.27523 33.6446C6.89771 38.1275 6.89365 41.5491 8.26265 43.8136C9.38048 45.6632 10.9933 46.019 11.1735 46.0534C11.2494 46.0679 11.3256 46.0752 11.4027 46.0752H28.5964C28.667 46.0752 28.7376 46.0692 28.8069 46.057C28.9875 46.0255 30.6044 45.6952 31.7308 43.8649C33.1168 41.6133 33.1144 38.1748 31.7243 33.645C31.2317 32.0399 33.6061 27.5906 35.4568 24.9295C36.2403 23.8977 39.9228 18.9078 39.9228 16.3106ZM33.4722 23.5253C32.6141 24.7548 28.385 31.0571 29.3965 34.3537C30.8389 39.0533 30.3573 41.3906 29.6992 42.5238C29.2403 43.3138 28.6507 43.5766 28.4381 43.649H11.565C11.3727 43.5787 10.8043 43.3167 10.3478 42.5622C9.66248 41.4278 9.15002 39.0832 10.6026 34.3541C11.6154 31.0575 7.38542 24.7548 6.52726 23.5253C6.51793 23.5116 6.50778 23.4982 6.49804 23.4849C4.84218 21.3081 2.51075 17.6432 2.51075 16.3106C2.51075 9.61414 12.775 2.44103 19.9993 2.44103C28.0084 2.44103 37.4879 9.95901 37.4879 16.3106C37.4879 17.6411 35.1565 21.3065 33.5006 23.4849C33.4913 23.4978 33.4812 23.5116 33.4722 23.5253Z"/>
+                      <path d="M18.3946 37.8101H15.9601V41.091H18.3946V37.8101Z"/>
+                      <path d="M24.0395 37.8101H21.605V41.091H24.0395V37.8101Z"/>
+                      <path d="M22.8221 25.4653H17.1774V27.8911H22.8221V25.4653Z"/>
+                      <path d="M22.8221 30.3867H17.1774V32.8125H22.8221V30.3867Z"/>
+                      <path d="M7.50585 17.108L12.3247 21.9097L14.0461 20.1944L9.22728 15.3927L7.50585 17.108Z"/>
+                      <path d="M25.9556 20.1936L27.6768 21.9092L32.4963 17.1082L30.7751 15.3927L25.9556 20.1936Z"/>
+                      <path d="M25.5281 11.9272H14.4714V14.3531H25.5281V11.9272Z"/>
+                      <path d="M25.5281 7.07568H14.4714V9.50149H25.5281V7.07568Z"/>
+                    </g>>
+                  </svg>
+                </button>
+              </a>
+              <a href="./eagle.html">
+                <button class="aside__animal-button aside__animal-button_active">
+                  <svg class="aside__animal-svg" width="26" height="33" viewBox="0 0 54 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path d="M52.7158 58.2361L48.8596 22.9013C48.799 10.2931 38.8917 0.0556641 26.7227 0.0556641C14.5537 0.0556641 4.64643 10.2938 4.58647 22.9013L0.729569 58.2361C0.665094 58.8273 0.856587 59.4178 1.25311 59.8479C1.64963 60.2785 2.21121 60.5079 2.78117 60.4638C2.82114 60.4611 6.76508 60.1896 10.317 60.1896C12.8206 60.1896 14.0649 60.3233 14.6684 60.4364C17.6897 60.9995 23.5873 64.9692 25.6047 66.4519C25.94 66.6973 26.3313 66.8211 26.7227 66.8211C27.1147 66.8211 27.508 66.6967 27.8433 66.4492C29.7975 65.008 35.5184 61.1366 38.4797 60.5427C39.1612 60.4063 40.6029 60.2438 43.6042 60.2438C47.0568 60.2438 50.6429 60.4624 50.6784 60.4651C51.2451 60.4925 51.8035 60.2719 52.1968 59.8425C52.5901 59.4132 52.7803 58.8246 52.7158 58.2361ZM43.6042 56.2312C40.9111 56.2312 38.9955 56.3529 37.7454 56.6037C34.2766 57.2992 29.049 60.7487 26.7201 62.3785C24.3358 60.7159 18.9135 57.1514 15.3519 56.4866C14.2332 56.278 12.5859 56.177 10.3157 56.177C8.35826 56.177 6.32794 56.2532 4.82954 56.3275L8.44143 23.2431C8.44982 23.1681 8.45368 23.0926 8.45368 23.0177C8.45368 12.5689 16.6485 4.06892 26.7221 4.06892C36.795 4.06892 44.9904 12.5689 44.9904 23.0177C44.9904 23.0932 44.9949 23.1688 45.0027 23.2431L48.6159 56.3455C47.2464 56.288 45.4237 56.2312 43.6042 56.2312Z" fill="#080029"/>
+                      <path d="M15.1173 25.4944C17.0312 25.4944 18.5828 23.885 18.5828 21.8998C18.5828 19.9145 17.0312 18.3052 15.1173 18.3052C13.2033 18.3052 11.6517 19.9145 11.6517 21.8998C11.6517 23.885 13.2033 25.4944 15.1173 25.4944Z" fill="#080029"/>
+                      <path d="M38.3282 25.4944C40.2422 25.4944 41.7937 23.885 41.7937 21.8998C41.7937 19.9145 40.2422 18.3052 38.3282 18.3052C36.4142 18.3052 34.8627 19.9145 34.8627 21.8998C34.8627 23.885 36.4142 25.4944 38.3282 25.4944Z" fill="#080029"/>
+                      <path d="M26.7227 50.2664L35.3546 27.0811H18.0895L26.7227 50.2664ZM26.7227 39.1288L23.731 31.0936H29.7143L26.7227 39.1288Z" fill="#080029"/>
+                    </g>
+                  </svg>
+                </button>
+              </a>
+              <a href="./gorilla.html">
+                <button class="aside__animal-button">
+                  <svg class="aside__animal-svg" width="30" height="34" viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#080029">
+                      <path d="M39.8514 27.843C39.6874 24.9424 38.9274 19.1901 37.9826 16.3782C35.9451 10.3099 29.8685 0.0400391 20.0151 0.0400391C10.1633 0.0400391 4.08551 10.3099 2.04773 16.3782C1.10218 19.1927 0.342546 24.9438 0.179213 27.8433C-0.0689352 32.2493 1.56144 36.5485 4.77032 39.9491C8.37514 43.7693 13.4363 45.9603 18.6563 45.9603H21.3748C26.594 45.9603 31.6551 43.7693 35.26 39.9491C38.4688 36.5481 40.0996 32.2493 39.8514 27.843ZM33.6448 38.42C30.5044 41.7476 25.9177 43.7341 21.3744 43.7341H18.6559C14.1125 43.7341 9.52514 41.7476 6.38514 38.4196C3.60033 35.4686 2.1844 31.757 2.39773 27.9683C2.5581 25.1316 3.30366 19.6193 4.15403 17.0871C5.87588 11.9607 11.4066 2.26547 20.0155 2.26547C28.6259 2.26547 34.1555 11.9607 35.8766 17.0875C36.7266 19.6171 37.4729 25.1301 37.6333 27.9683C37.8463 31.757 36.43 35.4689 33.6448 38.42Z"/>
+                      <path d="M25.9614 13.6831C23.7714 13.6831 21.6958 14.421 20.0151 15.7802C18.3343 14.421 16.2588 13.6831 14.0684 13.6831C8.83396 13.6831 4.57544 17.9485 4.57544 23.1914C4.57544 26.677 6.43877 29.8076 9.41433 31.4751C9.10618 32.1744 8.94692 32.907 8.94692 33.6415C8.94692 37.8223 13.8084 41.0969 20.0151 41.0969C26.2217 41.0969 31.0829 37.8223 31.0829 33.6415C31.0829 32.907 30.9232 32.174 30.6154 31.4751C33.591 29.8076 35.454 26.6766 35.454 23.1914C35.4543 17.9485 31.1958 13.6831 25.9614 13.6831ZM28.6473 29.9538L27.3195 30.4831L28.1591 31.6417C28.6247 32.2838 28.861 32.9567 28.861 33.6415C28.861 36.4765 24.8099 38.8711 20.0154 38.8711C15.2206 38.8711 11.1695 36.4765 11.1695 33.6415C11.1695 32.9571 11.4058 32.2845 11.8717 31.6417L12.7114 30.4831L11.384 29.9538C8.5984 28.8431 6.79877 26.1884 6.79877 23.1914C6.79877 19.176 10.0603 15.9089 14.0695 15.9089C16.0199 15.9089 17.8517 16.6735 19.2277 18.0613L20.0162 18.857L20.8047 18.0613C22.1806 16.6735 24.0121 15.9089 25.9625 15.9089C29.9714 15.9089 33.2332 19.176 33.2332 23.1914C33.2321 26.1884 31.4325 28.8431 28.6473 29.9538Z"/>
+                      <path d="M13.3482 24.2892C14.4476 24.2892 15.3389 23.3965 15.3389 22.2952C15.3389 21.194 14.4476 20.3013 13.3482 20.3013C12.2487 20.3013 11.3574 21.194 11.3574 22.2952C11.3574 23.3965 12.2487 24.2892 13.3482 24.2892Z"/>
+                      <path d="M26.6821 24.2892C27.7816 24.2892 28.6729 23.3965 28.6729 22.2952C28.6729 21.194 27.7816 20.3013 26.6821 20.3013C25.5827 20.3013 24.6914 21.194 24.6914 22.2952C24.6914 23.3965 25.5827 24.2892 26.6821 24.2892Z"/>
+                      <path d="M19.1858 28.2876H16.9636V31.2884H19.1858V28.2876Z"/>
+                      <path d="M23.0667 28.2876H20.8445V31.2884H23.0667V28.2876Z"/>
+                    </g>
+                  </svg>
+                </button>
+              </a>
+            </div>
+            <button class="aside__nav-button aside__nav-button_bottom"></button>
+          </nav>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-wrapper">
+    <div class="footer">
+      <div class="footer__content-wrapper">
+        <div class="footer__logos">
+          <a href="./index.html">
+            <img src="../../assets/icons/logo-footer.png" alt="Online Zoo" class="footer__online-zoo-logo">
+          </a>
+          <div class="footer__digital-and-school">
+            <img title="Yem Digital" src="../../assets/icons/yem_digital.png" alt="Yem digital" class="footer__digital-logo">
+            <div class="footer__symbol-x">x</div>
+            <img title="Rolling Scopes School" src="../../assets/icons/rs_school_js.png" alt="Rs School Js" class="footer__rsschool-logo">
+          </div>
+        </div>
+        <nav class="footer__nav">
+          <h2 class="footer__h2">Navigation</h2>
+          <a class="footer__nav-link" href="#watch-online">Watch online</a>
+          <a class="footer__nav-link" href="#how-it-works">How it works</a>
+          <a class="footer__nav-link" href="#famous-pets">Famous pets</a>
+          <a class="footer__nav-link" href="#pay-&-feed">Pay & feed</a>
+          <a class="footer__nav-link" href="#testimonials">Testimonials</a>
+          <a class="footer__nav-link" href="#zoogeography">Zoogeography</a>
+        </nav>
+        <div class="footer__button-and-links">
+          <div class="footer__donate">
+            <h2 class="footer__h2 footer__h2_margin">Support of volunteers</h2>
+            <h3 class="footer__h3">You can thank the volunteers for their work. For example, caring for animals and sincere love for them.</h3>
+            <button class="footer__button">Donate for volunteers </button>
+          </div>
+          <div class="footer__social-links">
+            <a class="footer__social-link" href="https://www.instagram.com/">Instagram</a>
+            <a class="footer__social-link" href="https://www.facebook.com/">Facebook</a>
+            <a class="footer__social-link" href="https://www.twitter.com/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="footer__date">Copyright ©RSSchool and ©Yem Digital 2020 - 2021</div>
+        <div class="footer__author">Designed by Vladislav Chernov</div>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/index.js"></script>
+</body>
+</html>

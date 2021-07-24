@@ -1,0 +1,513 @@
+.famous-pets {
+    background-color: #D9E8FF;
+    width: 100%;
+    left: 0;
+    display: flex;
+    padding: 80px 244px;
+    position: relative;
+    height: 896px;
+  }
+  .famous-pets_text {
+    position: absolute;
+    margin-top: 235px;
+  }
+  .famous-pets__imgs {
+    position: absolute;
+    top: 100px;
+    left: 612px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .famous-pets_text span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.115em;
+    color: #0B0B0B;
+    padding-top: 1217px;
+  }
+  .famous-pets_text h2 {
+    font-family: "Merriweather", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 52px;
+    color: #080029;
+    margin-top: 50px;
+    max-width: 325px;
+  }
+  .famous-pets_button button {
+    margin-top: 55px;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  .right {
+    background-color: transparent;
+    transform: rotate(180deg);
+    margin-left: 20px;
+  }
+  .famous-pets__imgs-img {
+    position: relative;
+    max-width: 328px;
+    max-height: 328px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .famous-pets__imgs-img:nth-child(3) {
+    margin-right: 0;
+  }
+  
+  .famous-pets__imgs-img:nth-child(6) {
+    margin-right: 0;
+  }
+  
+  .famous-pets__imgs-img:nth-child(4), .famous-pets__imgs-img:nth-child(5), .famous-pets__imgs-img:nth-child(6) {
+    margin-bottom: 0;
+  }
+  
+  .famous-pets__imgs-img:hover .img__animal {
+      transform: scale(1.3);
+  }
+  
+  .img__animal {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: all .3s;
+  }
+  
+  .imgs-img_text {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .imgs-img_text:hover .imgs-img_text_plus {
+    width: 238px;
+    height: 238px;
+    border-radius: 50%;
+    top: 30px;
+    bottom: 60px;
+    right: 45px;
+    left: 45px;
+    background: rgba(11, 11, 11, 0.1);
+    border: 2px solid rgba(252, 252, 252, 0.3);
+  }
+  
+  .imgs-img_text:hover .imgs-img_text_plus img {
+    display: none;
+  }
+  
+  .imgs-img_text:hover .image-span {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .imgs-img_text:hover .imgs-img_text__link {
+    opacity: 0;
+  }
+  
+  .imgs-img_text:hover .hidden {
+    opacity: 1;
+  }
+  
+  .imgs-img_text_plus {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: 2px solid #FCFCFC;
+    left: 126px;
+    right: 126px;
+    top: 164px;
+    transition: all .2s;
+  }
+  
+  .imgs-img_text .image-span {
+    opacity: 0;
+    position: absolute;
+    width: 189px;
+    height: 56px;
+    font-style: normal;
+    font-weight: normal;
+    transform: scale(2.5);
+    font-size: 18px;
+    line-height: 154%;
+    align-items: center;
+    text-align: center;
+    color: #FCFCFC;
+    transition: all .2s;
+  }
+  
+  .imgs-img_text__link {
+    position: absolute;
+    bottom: 25px;
+    left: 111px;
+    right: 111px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FCFCFC;
+  }
+  
+  .imgs-img_text .hidden {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+  }
+  
+  .imgs-img_text .hidden .link-span {
+    margin-right: 18px;
+  }
+
+
+
+@media(max-width: 1399px) {
+  .famous-pets {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 1600px;
+  }
+  .famous-pets__imgs {
+    position: absolute;
+    top: 700px;
+    left: 112px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .width-1800 {
+    display: flex;
+  }
+  .famous-pets_text {
+    position: 
+    
+    margin-top: 60px;
+  }
+  .famous-pets__imgs-img {
+    position: relative;
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+
+
+
+
+@media(max-width: 1200px) {
+  .famous-pets {
+    background-color: #D9E8FF;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 184px;
+    position: relative;
+    height: 896px;
+  }
+  .famous-pets_text {
+    position: absolute;
+    margin-top: 235px;
+  }
+  .famous-pets__imgs {
+    position: absolute;
+    top: 100px;
+    left: 612px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .famous-pets_text span {
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 119px;
+  }
+  .famous-pets_text h2 {
+    font-size: 28px;
+    line-height: 41px;
+    max-width: 215px;
+  }
+  .famous-pets__imgs-img {
+    position: relative;
+    max-width: 258px;
+    max-height: 258px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .img__animal {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: all .3s;
+  }
+  
+  .imgs-img_text {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+
+  
+  
+  .imgs-img_text_plus {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: 2px solid #FCFCFC;
+    left: 126px;
+    right: 126px;
+    top: 164px;
+    transition: all .2s;
+  }
+  
+  .imgs-img_text .image-span {
+    opacity: 0;
+    position: absolute;
+    width: 189px;
+    height: 56px;
+    font-style: normal;
+    font-weight: normal;
+    transform: scale(2.5);
+    font-size: 18px;
+    line-height: 154%;
+    align-items: center;
+    text-align: center;
+    color: #FCFCFC;
+    transition: all .2s;
+  }
+  
+  .imgs-img_text__link {
+    position: absolute;
+    bottom: 25px;
+    left: 111px;
+    right: 111px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FCFCFC;
+  }
+  
+  .imgs-img_text .hidden {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+  }
+  
+  .imgs-img_text .hidden .link-span {
+    margin-right: 18px;
+  }
+}
+@media(max-width: 640px) {
+  .famous-pets {
+    background-color: #D9E8FF;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 184px;
+    position: relative;
+    height: 555px;
+  }
+  .famous-pets_text {
+    position: absolute;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .famous-pets__imgs {
+    top: 100px;
+    left: 612px;
+    display: none;
+    flex-wrap: wrap;
+  }
+  .famous-pets_text span {
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 119px;
+  }
+  .famous-pets_text h2 {
+    font-size: 28px;
+    line-height: 41px;
+    max-width: 215px;
+  }
+  .famous-pets__imgs-img {
+    position: relative;
+    width: 258px;
+    height: 258px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .img__animal {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: all .3s;
+  }
+  
+  .imgs-img_text {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .imgs-img_text_plus {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: 2px solid #FCFCFC;
+    left: 126px;
+    right: 126px;
+    top: 164px;
+    transition: all .2s;
+  }
+  
+  .imgs-img_text .image-span {
+    opacity: 0;
+    position: absolute;
+    width: 189px;
+    height: 56px;
+    font-style: normal;
+    font-weight: normal;
+    transform: scale(2.5);
+    font-size: 18px;
+    line-height: 154%;
+    align-items: center;
+    text-align: center;
+    color: #FCFCFC;
+    transition: all .2s;
+  }
+  
+  .imgs-img_text__link {
+    position: absolute;
+    bottom: 25px;
+    left: 111px;
+    right: 111px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FCFCFC;
+  }
+  
+  .imgs-img_text .hidden {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+  }
+  
+  .imgs-img_text .hidden .link-span {
+    margin-right: 18px;
+  }
+}
+@media(max-width: 320px) {
+  .famous-pets {
+    background-color: #D9E8FF;
+    width: 100%;
+    left: 0;
+    display: flex;
+    padding: 80px 0px;
+    position: relative;
+    height: 896px;
+  }
+  .famous-pets_text {
+    position: absolute;
+    margin-top: 235px;
+  }
+  .famous-pets__imgs {
+    position: absolute;
+    top: 100px;
+    left: 612px;
+    display: none;
+    flex-wrap: wrap;
+  }
+  .famous-pets_text span {
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 119px;
+  }
+  .famous-pets_text h2 {
+    font-size: 20px;
+    line-height: 29px;
+    max-width: 189px;
+  }
+  .famous-pets__imgs-img {
+    position: relative;
+    max-width: 258px;
+    max-height: 258px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .img__animal {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: all .3s;
+  }
+  
+  .imgs-img_text {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+}

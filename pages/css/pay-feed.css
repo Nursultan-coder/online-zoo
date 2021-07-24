@@ -1,0 +1,311 @@
+.pay-feend {
+    height: 1300px;
+    padding: 100px;
+    position: relative;
+  }
+  .pay-feend span {
+    position: absolute;
+    left: 428px;
+    top: 100px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.115em;
+    color: #0B0B0B;
+  }
+  .pay-feend__item {
+    display: flex;
+    align-items: center;
+  }
+  .pay-feend__item h2 {
+    font-family: "Merriweather", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 52px;
+    color: #0F0049;
+  }
+  .pay-feend__item p {
+    margin-top: 30px;
+    width: 456px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28PX;
+    color: #747474;
+  }
+  .pay-feend__item-1 {
+    position: absolute;
+    width: 197px;
+    height: 97px;
+    left: 902px;
+    top: 414.5px;
+    
+
+  }
+  .pay-feend__item-2 {
+    position: absolute;
+    width: 240.45px;
+    height: 194.46px;
+    left: 713px;
+    top: 674.54px;
+  }
+  .item-1 {
+    position: absolute;
+    width: 824px;
+    height: 312px;
+    left: 442px;
+    top: 156px;
+    
+  }
+  .item-2 {
+    position: absolute;
+    width: 824px;
+    height: 312px;
+    left: 980px;
+    top: 528px;
+  }
+  .item-3 {
+    position: absolute;
+    width: 824px;
+    height: 312px;
+    left: 244px;
+    top: 887px;
+  }
+  .pay-feend__item_text {
+    padding-left: 73px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1200px) {
+.pay-feend {
+    height: 1300px;
+    padding: 100px;
+    position: relative;
+  }
+  .pay-feend span {
+    left: 184px;
+    top: 100px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .pay-feend__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pay-feend__item {
+    display: flex;
+    align-items: center;
+  }
+  .pay-feend__item h2 {
+    font-size: 28px;
+    line-height: 41px;
+  }
+  .pay-feend__item p {
+    margin-top: 20px;
+    width: 428px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .pay-feend__item-1 {
+    display: none;
+  }
+  .pay-feend__item-2 {
+    display: none;
+  }
+  .pay-feend__item img {
+    width: 215.63px;
+height: 165.99px;
+  }
+  .item-1 {
+width: 725px;
+height: 252px;
+left: 328px;
+top: 204px;  
+  }
+  .item-2 {
+    width: 753px;
+height: 252px;
+left: 328px;
+top: 536px;
+  }
+  .item-3 {
+    width: 753px;
+height: 252px;
+left: 328px;
+top: 868px;
+  }
+  .pay-feend__item_text {
+    padding-left: 73px;
+  }
+
+}
+
+
+
+
+
+
+@media(max-width: 640px) {
+  .pay-feend {
+    height: 1544px;
+    padding: 40px;
+    position: relative;
+  }
+  .pay-feend span {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .pay-feend__items {
+    position: absolute;
+    left: 0px;
+    top: 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .pay-feend__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+  .pay-feend__item h2 {
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .pay-feend__item p {
+    margin-top: 25px;
+    width: 428px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .pay-feend__item-1 {
+    display: none;
+  }
+  .pay-feend__item-2 {
+    display: none;
+  }
+  .pay-feend__item img {
+    width: 215.63px;
+height: 165.99px;
+  }
+  .item-1 {
+width: 456px;
+height: 451px;
+left: 66px;
+top: 164px; 
+  }
+  .item-2 {
+    width: 456px;
+height: 451px;
+left: 52px;
+top: 578px;
+  }
+  .item-3 {
+    width: 456px;
+height: 451px;
+left: 52px;
+top: 993px;
+  }
+  .pay-feend__item_text {
+    padding-left: 73px;
+  }
+}
+@media(max-width: 320px) {
+  .pay-feend {
+    height: 1544px;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+  }
+  .pay-feend span {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    left: 44px;
+  }
+  .pay-feend__items {
+    position: absolute;
+    left: 0px;
+    top: 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .pay-feend__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    width: 300px;
+  }
+  .pay-feend__item h2 {
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .pay-feend__item p {
+    margin-top: 25px;
+    width: 300px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .pay-feend__item-1 {
+    display: none;
+  }
+  .pay-feend__item-2 {
+    display: none;
+  }
+  .pay-feend__item img {
+    width: 215.63px;
+height: 165.99px;
+  }
+  .item-1 {
+width: 300px;
+height: 451px;
+left: 0px;
+top: 164px; 
+  }
+  .item-2 {
+    width: 300px;
+height: 451px;
+left: 0px;
+top: 578px;
+  }
+  .item-3 {
+    width: 300px;
+height: 451px;
+left: 0px;
+top: 993px;
+  }
+  .pay-feend__item_text {
+    padding-left: 0px;
+  }
+
+}

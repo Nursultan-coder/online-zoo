@@ -1,0 +1,234 @@
+
+.watch-animals {
+    display: flex;
+    padding: 55px 184px 27px 184px;
+  }
+  .watch-animals_text {
+    margin-top: 78px;
+  }
+  .watch-animals_text span {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    letter-spacing: 0.115em;
+    color: #626262;
+  }
+  .watch-animals_text h2 {
+    margin-top: 25px;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 106px;
+    color: #080029;
+  }
+  .buttons {
+    margin-top: 60px;
+  }
+  .choose-button {
+    width: 250px;
+    height: 61px;
+    background: #0F0049;
+    color: #FCFCFC;
+    border-radius: 5px;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+margin-right: 60px;
+  }
+  .choose-button:hover {
+    background-color: #080029;
+  }
+  .choose-button:active {
+    background-color: #150068;
+  }
+  .watch-button {
+    width: 260px;
+    height: 61px;
+    border-radius: 5px;
+    color: #0F0049;
+    border: 1px solid #0F0049;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .watch-button:hover {
+    border: 2px solid #080029;
+  }
+  .watch-button:active {
+    border: 2px solid #3888FF;
+  }
+  .watch-animals_img {
+    width: 696px;
+    height: 673px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1919px) {
+  .watch-animals_img img {
+    width: calc( 100vw - 1224px );
+    height: calc( 100vw - 1177px );
+    max-width: 696px;
+    max-height: 773px;
+    object-position: 0 80%;
+  }
+}
+@media(max-width: 1200px) {
+  .watch-animals {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px 27px 144px;
+  }
+  .watch-animals_text {
+    margin-top: 78px;
+  }
+  .watch-animals_text h2 {
+    margin-top: 35px;
+    font-size: 56px;
+    line-height: 70px;
+  }
+  .buttons {
+    display: flex;
+    margin-top: 50px;
+  }
+  .choose-button {
+    width: 209px;
+    height: 51px;
+font-size: 16px;
+line-height: 19px;
+margin-right: 40px;
+  }
+  .watch-button {
+    width: 209px;
+    height: 51px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .watch-animals_img img {
+    width: calc( 100vw - 1224px );
+    height: calc( 100vw - 1277px );
+    max-width: 696px;
+    max-height: 773px;
+    object-position: 0 80%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 640px) {
+  .watch-animals {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 20px 60px 20px;
+    max-height: 450px;
+  }
+  .watch-animals_text {
+    margin-top: 0px;
+  }
+  .watch-animals_text h2 {
+    margin-top: 35px;
+    font-size: 42px;
+    line-height: 53px;
+    width: 315px;
+  }
+  .buttons {
+    display: flex;
+    margin-top: 40px;
+  }
+  .choose-button {
+    width: 209px;
+height: 51px;
+  }
+  .watch-button {
+    display: none;
+  }
+  .watch-animals_img img {
+    width: 263px;
+    height: 326px;
+    margin-left: 22px;
+  }
+}
+@media(max-width: 320px) {
+  .watch-animals {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 10px 60px 10px;
+    max-height: 450px;
+  }
+  .watch-animals_text {
+    margin-top: 0px;
+    text-align: center;
+  }
+  .watch-animals_text h2 {
+    margin-top: 35px;
+    font-size: 42px;
+    line-height: 53px;
+    width: 300px;
+  }
+  .buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+  }
+  .choose-button {
+    width: 198px;
+height: 49px;
+align-content: center;
+  }
+  .watch-button {
+    display: none;
+  }
+  .watch-animals_img img {
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    display: none;
+  }
+}
